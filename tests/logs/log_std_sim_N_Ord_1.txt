@@ -1,0 +1,4 @@
+../tests/logs/log_std_sim_N_Ord_1.txt:  Average mean over 1 simulations is :4.256485674561796
+../tests/logs/log_std_sim_N_Ord_1.txt:  Average occupancy over 1 simulations is :[0.84117335 0.85579522]
+../tests/logs/log_std_sim_N_Ord_1.txt:  Distance travelled 1 simulations is :[103875. 102427.]
+../tests/logs/log_std_sim_N_Ord_1.txt:  Total charge used 1 simulations is :[0.70868102 0.70359703]

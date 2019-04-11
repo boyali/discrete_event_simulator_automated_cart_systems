@@ -1,6 +1,9 @@
 # discrete_event_simulator_automated_cart_systems
 This simulation environment is designed for simulating autonomous cart and design supervisory control with RL algorithms. The autonomous carts are managed by the control algorithm. Here we provide a simulation framework which can be used to analyze passenger waiting statistics. The RL study codes will be published soon separately. 
 
+We provided a sample notebook file for statistical analysis in the repository. For simulation, please just run the 
+standard_SIM_ord in tests folder. The related logs are generated and saved to be used with panda dataframes. 
+
 For details of the simulation environment please check the technical report. For citations;
 
 @article{hashimoto2018stochastic,

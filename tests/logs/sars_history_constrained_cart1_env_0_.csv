@@ -1,0 +1,869 @@
+	sim_time	cartID	current_state	next_state	cart_position	occupancy	carried	call_received	action	reward	delta_reward	time_since	event_type	reason
+0	150.0	C_1	[0 0 0 0 0 0 1 1]	[0 0 0 0 0 0 1 1]	0	0	0		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+1	180.0	C_1	[0 0 0 0 0 0 1 1]	[0 0 0 0 0 0 1 1]	0	0	0		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+2	210.0	C_1	[0 0 0 0 0 0 1 1]	[0 0 0 0 0 0 1 1]	0	0	0		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+3	240.0	C_1	[0 0 0 0 0 0 1 1]	[0 0 0 0 0 0 1 1]	0	0	0		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+4	270.0	C_1	[0 0 0 0 0 0 1 1]	[0 4 0 0 0 0 1 1]	0	0	0		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+5	300.0	C_1	[0 4 0 0 0 0 1 1]	[0 4 0 0 0 0 1 1]	0	0	0		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+6	330.0	C_1	[0 4 0 0 0 0 1 1]	[2 4 0 0 0 0 1 1]	0	0	0		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+7	360.0	C_1	[2 4 0 0 0 0 1 1]	[2 4 0 0 0 0 1 1]	0	0	0		wait    	0.00	0.00	0	decision_time_stopped	there are people waiting at the current stop and can get-in
+8	390.0	C_1	[2 4 0 0 0 0 1 1]	[0 4 0 0 0 0 1 1]	0	0	0		wait    	0.00	0.00	0	decision_time_stopped	there are people waiting at the current stop and can get-in
+9	397.0	C_1	[0 4 0 0 0 0 1 1]	[0 4 0 0 0 0 1 1]	0	2	0		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+10	529.0	C_1	[0 4 0 0 0 0 1 1]	[0 4 0 0 0 0 1 1]	0	2	0		stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+11	532.0	C_1	[0 4 0 0 0 0 1 1]	[0 0 0 0 0 0 1 1]	1	2	0		wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+12	542.0	C_1	[0 0 0 0 0 0 1 1]	[0 0 0 0 0 0 0 1]	1	6	0		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+13	649.0	C_1	[0 0 0 0 0 0 0 1]	[0 0 0 0 0 0 0 1]	1	6	0		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+14	703.0	C_1	[0 0 0 0 0 0 0 1]	[0 0 0 0 0 0 0 1]	2	6	0		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+15	706.0	C_1	[0 0 0 0 0 0 0 1]	[0 0 0 0 0 0 0 1]	3	6	0		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+16	714.0	C_1	[0 0 0 0 0 0 0 1]	[0 0 0 0 0 0 0 0]	3	5	0		move    	0.00	0.00	0	alighting           	passengers are waiting in the cart
+17	767.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	3	5	0		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+18	770.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 1 0 0]	4	5	0		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+19	1110.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 0 1 0 0]	4	0	5	S_5	move    	0.00	0.00	0	decision_time_stopped	Call received other than current stop
+20	1169.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 0 1 0 0]	4	0	5	S_5	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+21	1172.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 0 0 0 0]	5	0	5	S_5	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+22	1183.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	1	5		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+23	1234.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	1	5		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+24	1352.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	1	5		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+25	1483.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	7	1	5		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+26	1614.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	0	1	5		stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+27	1617.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	1	1	5		wait    	0.00	0.00	0	car_arrival_stop    	Next bus stop is occupied or there is cart heading to next
+28	1647.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 1 0 0]	1	1	5		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+29	1677.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 0 1 0 0]	1	1	5		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+30	1707.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 4 0 0 0 0 2]	1	1	5		move    	0.00	0.00	0	decision_time_stopped	passengers are waiting in the cart
+31	1814.0	C_1	[0 0 4 0 0 0 0 2]	[0 0 4 0 0 0 0 2]	1	1	5	S_2	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+32	1817.0	C_1	[0 0 4 0 0 0 0 2]	[0 0 0 0 0 0 0 2]	2	1	5	S_2	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+33	1829.0	C_1	[0 0 0 0 0 0 0 2]	[0 0 0 0 0 0 0 2]	2	5	5		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+34	1885.0	C_1	[0 0 0 0 0 0 0 2]	[0 0 0 0 0 0 0 2]	2	5	5		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+35	1936.0	C_1	[0 0 0 0 0 0 0 2]	[0 0 0 0 0 0 0 2]	3	5	5		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+36	1939.0	C_1	[0 0 0 0 0 0 0 2]	[0 0 0 0 0 0 0 2]	4	5	5		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+37	1947.0	C_1	[0 0 0 0 0 0 0 2]	[0 0 0 0 0 0 0 0]	4	4	6		move    	0.00	0.00	0	alighting           	passengers are waiting in the cart
+38	2006.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	4	6		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+39	2009.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 1 1 0 0]	5	4	6		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+40	2229.0	C_1	[0 0 0 0 1 1 0 0]	[0 0 0 0 1 0 0 0]	5	0	10		wait    	0.00	0.00	0	decision_time_stopped	there are people waiting at the current stop and can get-in
+41	2240.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	5	1	10		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+42	2291.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	5	1	10		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+43	2409.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	6	1	10		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+44	2412.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 1 0 0 3]	7	1	10		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+45	2450.0	C_1	[0 0 0 0 1 0 0 3]	[0 0 0 0 1 0 0 0]	7	0	11		wait    	0.00	0.00	0	decision_time_stopped	there are people waiting at the current stop and can get-in
+46	2461.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 0 0 0 0]	7	3	11		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+47	2593.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	7	3	11		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+48	2596.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 1 0 0 0 0]	0	3	11		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+49	2637.0	C_1	[0 0 0 1 0 0 0 0]	[0 0 0 1 0 0 0 0]	0	0	14	S_3	move    	0.00	0.00	0	decision_time_stopped	Call received other than current stop
+50	2769.0	C_1	[0 0 0 1 0 0 0 0]	[0 0 0 1 0 0 0 0]	0	0	14	S_3	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+51	2875.0	C_1	[0 0 0 1 0 0 0 0]	[0 0 0 1 0 0 0 0]	1	0	14	S_3	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+52	2929.0	C_1	[0 0 0 1 0 0 0 0]	[0 0 0 1 0 0 0 0]	2	0	14	S_3	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+53	2932.0	C_1	[0 0 0 1 0 0 0 0]	[0 0 0 0 0 0 0 0]	3	0	14	S_3	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+54	2939.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	3	1	14		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+55	2992.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	3	1	14		stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+56	2995.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	1	14		wait    	0.00	0.00	0	car_arrival_stop    	Next bus stop is occupied or there is cart heading to next
+57	3025.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	1	14		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+58	3055.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 2 0 0 0 0 0]	4	1	14		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+59	3085.0	C_1	[0 0 2 0 0 0 0 0]	[0 0 2 0 0 0 0 0]	4	1	14		move    	0.00	0.00	0	decision_time_stopped	passengers are waiting in the cart
+60	3144.0	C_1	[0 0 2 0 0 0 0 0]	[0 0 2 0 0 0 0 0]	4	1	14		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+61	3147.0	C_1	[0 0 2 0 0 0 0 0]	[0 0 2 0 0 0 0 0]	5	1	14		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+62	3177.0	C_1	[0 0 2 0 0 0 0 0]	[0 0 2 0 0 0 0 0]	5	1	14		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+63	3207.0	C_1	[0 0 2 0 0 0 0 0]	[0 0 4 2 0 0 1 0]	5	1	14		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+64	3487.0	C_1	[0 0 4 2 0 0 1 0]	[0 0 4 2 0 0 1 0]	5	0	15	S_6	move    	0.00	0.00	0	decision_time_stopped	Call received other than current stop
+65	3538.0	C_1	[0 0 4 2 0 0 1 0]	[0 0 4 2 0 0 1 0]	5	0	15	S_6	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+66	3541.0	C_1	[0 0 4 2 0 0 1 0]	[0 0 4 2 0 0 0 0]	6	0	15	S_6	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+67	3548.0	C_1	[0 0 4 2 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	1	15		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+68	3668.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	1	15		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+69	3671.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	7	1	15		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+70	3826.0	C_1	[0 0 0 0 0 0 0 0]	[4 0 0 0 0 0 0 0]	7	0	16		move    	0.00	0.00	0	decision_time_stopped	Behind there is a cart
+71	3958.0	C_1	[4 0 0 0 0 0 0 0]	[4 0 0 0 0 0 0 0]	7	0	16	S_0	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+72	3961.0	C_1	[4 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	0	0	16	S_0	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+73	3973.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 2 0 0 0]	0	4	16		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+74	4105.0	C_1	[0 0 0 0 2 0 0 0]	[0 0 0 0 2 0 0 0]	0	4	16	S_4	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+75	4211.0	C_1	[0 0 0 0 2 0 0 0]	[0 0 0 0 2 0 0 0]	1	4	16	S_4	stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+76	4214.0	C_1	[0 0 0 0 2 0 0 0]	[0 0 0 0 2 0 0 0]	2	4	16	S_4	wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+77	4221.0	C_1	[0 0 0 0 2 0 0 0]	[0 0 0 0 2 0 0 0]	2	0	20	S_4	move    	0.00	0.00	0	alighting           	Call received other than current stop
+78	4277.0	C_1	[0 0 0 0 2 0 0 0]	[0 0 0 0 2 0 0 0]	2	0	20	S_4	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+79	4328.0	C_1	[0 0 0 0 2 0 0 0]	[0 0 0 0 2 0 0 0]	3	0	20	S_4	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+80	4331.0	C_1	[0 0 0 0 2 0 0 0]	[0 0 0 0 0 0 0 0]	4	0	20	S_4	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+81	4340.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	2	20		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+82	4399.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	2	20		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+83	4448.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	2	20		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+84	4566.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	2	20		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+85	4697.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	7	2	20		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+86	4700.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	0	2	20		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+87	4730.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	0	2	20		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+88	4760.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	0	2	20		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+89	4790.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	0	2	20		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+90	4820.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 1 0 0 0]	0	2	20		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+91	6571.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	0	0	22	S_4	move    	0.00	0.00	0	decision_time_stopped	Call received other than current stop
+92	6703.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	0	0	22	S_4	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+93	6809.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	1	0	22	S_4	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+94	6863.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	2	0	22	S_4	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+95	6914.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	3	0	22	S_4	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+96	6917.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 0 0 0 0]	4	0	22	S_4	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+97	6923.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	1	22		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+98	6982.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	1	22		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+99	7031.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 3 0]	5	1	22		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+100	7149.0	C_1	[0 0 0 0 0 0 3 0]	[0 0 0 0 0 0 3 0]	6	1	22		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+101	7280.0	C_1	[0 0 0 0 0 0 3 0]	[0 0 0 0 0 0 3 0]	7	1	22		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+102	7283.0	C_1	[0 0 0 0 0 0 3 0]	[0 0 0 0 0 0 3 0]	0	1	22		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+103	7313.0	C_1	[0 0 0 0 0 0 3 0]	[0 0 0 0 0 0 3 0]	0	1	22		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+104	7343.0	C_1	[0 0 0 0 0 0 3 0]	[0 0 0 0 0 0 1 0]	0	1	22		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+105	7591.0	C_1	[0 0 0 0 0 0 1 0]	[0 0 0 0 0 2 1 0]	0	0	23	S_6	move    	0.00	0.00	0	decision_time_stopped	Call received other than current stop
+106	7723.0	C_1	[0 0 0 0 0 2 1 0]	[0 0 1 0 0 2 1 0]	0	0	23	S_5	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+107	7829.0	C_1	[0 0 1 0 0 2 1 0]	[0 0 1 0 0 2 1 0]	1	0	23	S_2	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+108	7832.0	C_1	[0 0 1 0 0 2 1 0]	[0 0 0 0 0 2 1 0]	2	0	23	S_2	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+109	7844.0	C_1	[0 0 0 0 0 2 1 0]	[0 0 0 0 0 2 1 0]	2	1	23		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+110	7900.0	C_1	[0 0 0 0 0 2 1 0]	[0 0 0 0 0 2 1 0]	2	1	23		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+111	7903.0	C_1	[0 0 0 0 0 2 1 0]	[0 0 0 0 1 2 1 0]	3	1	23		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+112	8808.0	C_1	[0 0 0 0 1 2 1 0]	[0 0 0 0 1 2 1 0]	3	0	24	S_4	move    	0.00	0.00	0	decision_time_stopped	Call received other than current stop
+113	8861.0	C_1	[0 0 0 0 1 2 1 0]	[0 0 0 0 1 2 1 0]	3	0	24	S_4	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+114	8864.0	C_1	[0 0 0 0 1 2 1 0]	[0 0 0 0 0 2 1 0]	4	0	24	S_4	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+115	8869.0	C_1	[0 0 0 0 0 2 1 0]	[0 0 0 0 0 2 1 0]	4	1	24		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+116	8928.0	C_1	[0 0 0 0 0 2 1 0]	[0 0 0 0 0 2 1 0]	4	1	24		stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+117	8931.0	C_1	[0 0 0 0 0 2 1 0]	[0 0 0 0 0 0 1 0]	5	1	24		wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+118	8941.0	C_1	[0 0 0 0 0 0 1 0]	[0 0 0 0 0 0 2 0]	5	3	24		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+119	8992.0	C_1	[0 0 0 0 0 0 2 0]	[0 0 0 0 0 0 2 0]	5	3	24	S_6	stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+120	8995.0	C_1	[0 0 0 0 0 0 2 0]	[0 0 0 0 0 0 2 0]	6	3	24	S_6	wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+121	9002.0	C_1	[0 0 0 0 0 0 2 0]	[0 0 0 0 0 0 0 0]	6	2	25	S_6	wait    	0.00	0.00	0	alighting           	there are people waiting at the current stop and can get-in
+122	9012.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 1 0 0]	6	4	25		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+123	9132.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 0 1 0 0]	6	4	25		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+124	9135.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 0 1 0 0]	7	4	25		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+125	9143.0	C_1	[0 0 0 0 0 1 0 0]	[0 2 0 0 0 0 0 0]	7	2	27		move    	0.00	0.00	0	alighting           	passengers are waiting in the cart
+126	9275.0	C_1	[0 2 0 0 0 0 0 0]	[0 2 0 0 0 0 0 0]	7	2	27	S_1	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+127	9406.0	C_1	[0 2 0 0 0 0 0 0]	[0 2 0 0 0 0 0 0]	0	2	27	S_1	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+128	9409.0	C_1	[0 2 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	1	2	27	S_1	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+129	9419.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 1 0 0 0 0]	1	4	27		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+130	9526.0	C_1	[0 0 0 1 0 0 0 0]	[0 0 0 1 0 0 0 0]	1	4	27	S_3	stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+131	9529.0	C_1	[0 0 0 1 0 0 0 0]	[0 0 0 1 0 0 0 0]	2	4	27	S_3	wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+132	9536.0	C_1	[0 0 0 1 0 0 0 0]	[0 0 0 1 0 0 0 0]	2	3	28	S_3	move    	0.00	0.00	0	alighting           	Call received other than current stop
+133	9592.0	C_1	[0 0 0 1 0 0 0 0]	[0 0 0 1 0 0 0 0]	2	3	28	S_3	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+134	9595.0	C_1	[0 0 0 1 0 0 0 0]	[0 0 0 0 0 0 0 0]	3	3	28	S_3	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+135	9603.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	3	4	28		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+136	9656.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	3	4	28		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+137	9659.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	4	4	28		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+138	9665.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	4	3	29		move    	0.00	0.00	0	alighting           	passengers are waiting in the cart
+139	9724.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	4	3	29		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+140	9727.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	5	3	29		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+141	9738.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	5	2	30		move    	0.00	0.00	0	alighting           	passengers are waiting in the cart
+142	9789.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	5	2	30		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+143	9907.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	6	2	30		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+144	9910.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	7	2	30		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+145	9916.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 4 0 0 0 0 0]	7	1	31		move    	0.00	0.00	0	alighting           	passengers are waiting in the cart
+146	10048.0	C_1	[0 0 4 0 0 0 0 0]	[0 0 4 0 0 0 0 0]	7	1	31	S_2	stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+147	10051.0	C_1	[0 0 4 0 0 0 0 0]	[0 1 4 0 0 0 0 0]	0	1	31	S_2	wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+148	10060.0	C_1	[0 1 4 0 0 0 0 0]	[0 1 5 0 0 0 0 0]	0	0	32	S_1	move    	0.00	0.00	0	alighting           	Call received other than current stop
+149	10192.0	C_1	[0 1 5 0 0 0 0 0]	[0 1 5 0 0 0 0 0]	0	0	32	S_2	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+150	10195.0	C_1	[0 1 5 0 0 0 0 0]	[0 0 5 0 0 0 0 0]	1	0	32	S_2	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+151	10205.0	C_1	[0 0 5 0 0 0 0 0]	[0 0 5 0 0 0 0 0]	1	1	32		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+152	10312.0	C_1	[0 0 5 0 0 0 0 0]	[0 0 5 0 0 0 0 0]	1	1	32		stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+153	10315.0	C_1	[0 0 5 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	1	32		wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+154	10324.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	6	32		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+155	10380.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	6	32		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+156	10431.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	3	6	32		stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+157	10434.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	6	32		wait    	0.00	0.00	0	car_arrival_stop    	Next bus stop is occupied or there is cart heading to next
+158	10464.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	6	32		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+159	10494.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	6	32		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+160	10524.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	6	32		move    	0.00	0.00	0	decision_time_stopped	passengers are waiting in the cart
+161	10583.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	6	32		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+162	10586.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	6	32		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+163	10616.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	6	32		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+164	10646.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	6	32		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+165	10676.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	6	32		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+166	10706.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	6	32		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+167	10736.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	6	32		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+168	10746.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	5	33		move    	0.00	0.00	0	alighting           	passengers are waiting in the cart
+169	10797.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	5	33		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+170	10800.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	5	33		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+171	10830.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	5	33		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+172	10860.0	C_1	[0 0 0 0 0 0 0 0]	[0 2 0 0 0 0 0 0]	6	5	33		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+173	10890.0	C_1	[0 2 0 0 0 0 0 0]	[0 2 0 0 0 0 0 0]	6	5	33		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+174	10920.0	C_1	[0 2 0 0 0 0 0 0]	[0 2 0 0 0 0 0 0]	6	5	33		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+175	10950.0	C_1	[0 2 0 0 0 0 0 0]	[0 2 0 0 0 0 0 0]	6	5	33		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+176	10957.0	C_1	[0 2 0 0 0 0 0 0]	[0 2 0 0 0 0 0 0]	6	4	34		move    	0.00	0.00	0	alighting           	passengers are waiting in the cart
+177	11077.0	C_1	[0 2 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	4	34		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+178	11208.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	7	4	34		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+179	11211.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 1 0 0 0]	0	4	34		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+180	11547.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 0 0 0 0]	0	0	38	S_4	move    	0.00	0.00	0	decision_time_stopped	Call received other than current stop
+181	11679.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	0	0	38	S_4	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+182	11785.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	1	0	38	S_4	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+183	11839.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	0	38	S_4	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+184	11890.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	3	0	38	S_4	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+185	11947.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	0	38	S_4	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+186	11996.0	C_1	[0 0 0 0 0 0 0 0]	[0 1 0 0 0 0 0 0]	5	0	38	S_4	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+187	12114.0	C_1	[0 1 0 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	6	0	38	S_4	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+188	12245.0	C_1	[1 0 0 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	7	0	38	S_0	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+189	12248.0	C_1	[1 0 0 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	0	0	38	S_0	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+190	12278.0	C_1	[1 0 0 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	0	0	38	S_0	wait    	0.00	0.00	0	decision_time_stopped	there are people waiting at the current stop and can get-in
+191	12308.0	C_1	[1 0 0 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	0	0	38	S_0	wait    	0.00	0.00	0	decision_time_stopped	there are people waiting at the current stop and can get-in
+192	12338.0	C_1	[1 0 0 0 0 0 0 0]	[1 0 0 0 1 0 0 0]	0	0	38	S_0	wait    	0.00	0.00	0	decision_time_stopped	there are people waiting at the current stop and can get-in
+193	12368.0	C_1	[1 0 0 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	0	0	38	S_0	wait    	0.00	0.00	0	decision_time_stopped	there are people waiting at the current stop and can get-in
+194	12373.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 0 0 0 0]	0	1	38		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+195	12505.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	0	1	38		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+196	12611.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	1	1	38		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+197	12665.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	1	38		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+198	12716.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	3	1	38		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+199	12719.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 2 0 0 0 0]	4	1	38		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+200	13330.0	C_1	[0 0 0 2 0 0 0 0]	[0 0 1 2 0 0 0 0]	4	0	39		move    	0.00	0.00	0	decision_time_stopped	Behind there is a cart
+201	13422.0	C_1	[0 0 1 2 0 0 0 0]	[0 0 1 0 0 0 0 0]	5	0	39	S_2	move    	0.00	0.00	0	decision_time_stopped	Call received other than current stop
+202	13473.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 1 0 0 0]	5	0	39	S_2	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+203	13591.0	C_1	[0 0 1 0 1 0 0 0]	[0 0 1 0 1 0 0 0]	6	0	39	S_4	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+204	13722.0	C_1	[0 0 1 0 1 0 0 0]	[0 0 1 0 1 0 0 0]	7	0	39	S_4	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+205	13853.0	C_1	[0 0 1 0 1 0 0 0]	[0 0 1 0 1 0 0 0]	0	0	39	S_4	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+206	13959.0	C_1	[0 0 1 0 1 0 0 0]	[0 0 1 0 1 0 0 0]	1	0	39	S_4	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+207	13962.0	C_1	[0 0 1 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	2	0	39	S_4	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+208	13972.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	2	1	39		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+209	14028.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	2	1	39		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+210	14079.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	3	1	39		stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+211	14082.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 0 0 0 0]	4	1	39		wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+212	14093.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	2	39		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+213	14152.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	2	39		stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+214	14155.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	2	39		wait    	0.00	0.00	0	car_arrival_stop    	Next bus stop is occupied or there is cart heading to next
+215	14185.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	2	39		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+216	14215.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	2	39		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+217	14245.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	2	39		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+218	14275.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	2	39		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+219	14305.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	2	39		move    	0.00	0.00	0	decision_time_stopped	passengers are waiting in the cart
+220	14356.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	2	39		stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+221	14359.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	2	39		wait    	0.00	0.00	0	car_arrival_stop    	Next bus stop is occupied or there is cart heading to next
+222	14389.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	2	39		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+223	14419.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	2	39		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+224	14449.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	2	39		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+225	14479.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	6	2	39		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+226	14509.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	6	2	39		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+227	14539.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	6	2	39		move    	0.00	0.00	0	decision_time_stopped	passengers are waiting in the cart
+228	14659.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	6	2	39		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+229	14662.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	7	2	39		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+230	14672.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	7	1	40		move    	0.00	0.00	0	alighting           	passengers are waiting in the cart
+231	14804.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	7	1	40		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+232	14935.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	0	1	40	S_2	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+233	15041.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	1	1	40	S_2	stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+234	15044.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	2	1	40	S_2	wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+235	15050.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	0	41	S_2	wait    	0.00	0.00	0	alighting           	there are people waiting at the current stop and can get-in
+236	15057.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	1	41		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+237	15113.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	1	41		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+238	15164.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	3	1	41		stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+239	15167.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	1	41		wait    	0.00	0.00	0	car_arrival_stop    	Next bus stop is occupied or there is cart heading to next
+240	15197.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	1	41		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+241	15227.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	1	41		move    	0.00	0.00	0	decision_time_stopped	passengers are waiting in the cart
+242	15286.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	1	41		stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+243	15289.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	1	41		wait    	0.00	0.00	0	car_arrival_stop    	Next bus stop is occupied or there is cart heading to next
+244	15319.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	1	41		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+245	15349.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	1	41		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+246	15379.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	5	1	41		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+247	15409.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	5	1	41		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+248	15439.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	5	1	41		move    	0.00	0.00	0	decision_time_stopped	passengers are waiting in the cart
+249	15490.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	5	1	41		stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+250	15493.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	6	1	41		wait    	0.00	0.00	0	car_arrival_stop    	Next bus stop is occupied or there is cart heading to next
+251	15523.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	6	1	41		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+252	15553.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	6	1	41		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+253	15583.0	C_1	[0 0 1 0 0 0 0 0]	[1 0 2 0 0 0 0 0]	6	1	41		move    	0.00	0.00	0	decision_time_stopped	passengers are waiting in the cart
+254	15703.0	C_1	[1 0 2 0 0 0 0 0]	[1 0 2 0 0 0 0 0]	6	1	41	S_0	stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+255	15706.0	C_1	[1 0 2 0 0 0 0 0]	[1 0 2 0 0 0 0 0]	7	1	41	S_0	wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+256	15716.0	C_1	[1 0 2 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	7	0	42	S_0	move    	0.00	0.00	0	alighting           	Call received other than current stop
+257	15848.0	C_1	[1 0 0 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	7	0	42	S_0	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+258	15851.0	C_1	[1 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	0	0	42	S_0	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+259	15856.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	0	1	42		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+260	15988.0	C_1	[0 0 0 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	0	1	42		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+261	16094.0	C_1	[1 0 0 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	1	1	42		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+262	16148.0	C_1	[1 0 0 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	2	1	42		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+263	16199.0	C_1	[1 0 0 0 0 0 0 0]	[3 0 0 0 0 0 0 0]	3	1	42		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+264	16256.0	C_1	[3 0 0 0 0 0 0 0]	[3 0 0 0 0 0 0 0]	4	1	42		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+265	16259.0	C_1	[3 0 0 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	5	1	42		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+266	16355.0	C_1	[1 0 0 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	5	0	43	S_0	move    	0.00	0.00	0	decision_time_stopped	Call received other than current stop
+267	16406.0	C_1	[1 0 0 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	5	0	43	S_0	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+268	16524.0	C_1	[1 0 0 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	6	0	43	S_0	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+269	16655.0	C_1	[1 0 0 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	7	0	43	S_0	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+270	16658.0	C_1	[1 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	0	0	43	S_0	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+271	16664.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	0	1	43		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+272	16796.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	0	1	43		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+273	16902.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	1	1	43		stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+274	16905.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	1	43		wait    	0.00	0.00	0	car_arrival_stop    	Next bus stop is occupied or there is cart heading to next
+275	16935.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	1	43		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+276	16965.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	1	43		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+277	16995.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 1 0 0 0]	2	1	43		move    	0.00	0.00	0	decision_time_stopped	passengers are waiting in the cart
+278	17051.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	2	1	43	S_4	stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+279	17054.0	C_1	[0 0 0 0 1 0 0 0]	[0 2 0 0 0 0 0 0]	3	1	43	S_4	wait    	0.00	0.00	0	car_arrival_stop    	Next bus stop is occupied or there is cart heading to next
+280	17084.0	C_1	[0 2 0 0 0 0 0 0]	[0 2 0 0 0 0 0 0]	3	1	43	S_4	wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+281	17114.0	C_1	[0 2 0 0 0 0 0 0]	[0 2 0 0 0 0 0 0]	3	1	43	S_4	wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+282	17144.0	C_1	[0 2 0 0 0 0 0 0]	[0 2 0 0 0 0 0 0]	3	1	43	S_4	move    	0.00	0.00	0	decision_time_stopped	Call received other than current stop
+283	17197.0	C_1	[0 2 0 0 0 0 0 0]	[0 2 0 0 0 0 0 0]	3	1	43	S_4	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+284	17254.0	C_1	[0 2 0 0 0 0 0 0]	[0 2 0 0 0 0 0 0]	4	1	43	S_4	stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+285	17257.0	C_1	[0 2 0 0 0 0 0 0]	[0 2 0 0 0 0 0 0]	5	1	43	S_4	wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+286	17287.0	C_1	[0 2 0 0 0 0 0 0]	[0 2 0 0 0 0 0 0]	5	1	43	S_4	wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+287	17317.0	C_1	[0 2 0 0 0 0 0 0]	[0 2 0 0 0 0 0 0]	5	1	43	S_4	wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+288	17329.0	C_1	[0 2 0 0 0 0 0 0]	[0 2 0 0 0 0 0 0]	5	0	44	S_4	move    	0.00	0.00	0	alighting           	Call received other than current stop
+289	17380.0	C_1	[0 2 0 0 0 0 0 0]	[0 2 0 0 0 0 0 0]	5	0	44	S_4	stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+290	17383.0	C_1	[0 2 0 0 0 0 0 0]	[0 2 0 0 0 0 0 0]	6	0	44	S_4	wait    	0.00	0.00	0	car_arrival_stop    	Next bus stop is occupied or there is cart heading to next
+291	17413.0	C_1	[0 2 0 0 0 0 0 0]	[0 2 0 0 0 0 0 0]	6	0	44	S_4	wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+292	17443.0	C_1	[0 2 0 0 0 0 0 0]	[0 2 0 0 0 0 0 0]	6	0	44	S_4	move    	0.00	0.00	0	decision_time_stopped	Call received other than current stop
+293	17563.0	C_1	[0 2 0 0 0 0 0 0]	[0 0 0 0 1 0 0 0]	6	0	44	S_4	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+294	17694.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	7	0	44	S_4	stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+295	17697.0	C_1	[0 0 0 0 1 0 0 0]	[1 0 0 0 0 1 0 0]	0	0	44	S_4	move    	0.00	0.00	0	car_arrival_stop    	Call received other than current stop
+296	17829.0	C_1	[1 0 0 0 0 1 0 0]	[1 0 0 0 0 0 0 0]	0	0	44	S_4	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+297	17935.0	C_1	[1 0 0 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	1	0	44	S_4	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+298	17989.0	C_1	[1 0 0 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	2	0	44	S_4	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+299	18040.0	C_1	[1 0 0 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	3	0	44	S_4	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+300	18097.0	C_1	[1 0 0 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	4	0	44	S_4	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+301	18146.0	C_1	[1 0 0 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	5	0	44	S_4	stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+302	18149.0	C_1	[1 0 0 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	6	0	44	S_4	wait    	0.00	0.00	0	car_arrival_stop    	Next bus stop is occupied or there is cart heading to next
+303	18179.0	C_1	[1 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	0	44	S_4	wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+304	18209.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	0	44	S_4	move    	0.00	0.00	0	decision_time_stopped	Call received other than current stop
+305	18329.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	0	44	S_4	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+306	18460.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	7	0	44	S_4	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+307	18591.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	0	0	44	S_4	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+308	18697.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	1	0	44	S_4	stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+309	18700.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	0	44	S_4	wait    	0.00	0.00	0	car_arrival_stop    	Next bus stop is occupied or there is cart heading to next
+310	18730.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 1 0 0 0 0]	2	0	44	S_4	wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+311	18760.0	C_1	[0 0 0 1 0 0 0 0]	[0 2 0 1 0 0 0 0]	2	0	44	S_3	wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+312	18790.0	C_1	[0 2 0 1 0 0 0 0]	[0 2 0 1 0 0 0 0]	2	0	44	S_3	move    	0.00	0.00	0	decision_time_stopped	Call received other than current stop
+313	18846.0	C_1	[0 2 0 1 0 0 0 0]	[0 2 0 1 0 0 0 0]	2	0	44	S_3	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+314	18849.0	C_1	[0 2 0 1 0 0 0 0]	[0 2 0 0 0 0 0 0]	3	0	44	S_3	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+315	18856.0	C_1	[0 2 0 0 0 0 0 0]	[0 2 0 0 0 0 0 0]	3	1	44		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+316	18909.0	C_1	[0 2 0 0 0 0 0 0]	[0 2 0 0 0 0 0 0]	3	1	44		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+317	18966.0	C_1	[0 2 0 0 0 0 0 0]	[0 2 0 0 0 0 0 0]	4	1	44		stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+318	18969.0	C_1	[0 2 0 0 0 0 0 0]	[0 2 0 0 0 0 0 0]	5	1	44		wait    	0.00	0.00	0	car_arrival_stop    	Next bus stop is occupied or there is cart heading to next
+319	18999.0	C_1	[0 2 0 0 0 0 0 0]	[0 2 0 0 0 0 0 0]	5	1	44		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+320	19029.0	C_1	[0 2 0 0 0 0 0 0]	[1 2 0 0 0 0 0 0]	5	1	44		move    	0.00	0.00	0	decision_time_stopped	passengers are waiting in the cart
+321	19080.0	C_1	[1 2 0 0 0 0 0 0]	[1 2 0 0 0 0 0 0]	5	1	44		stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+322	19083.0	C_1	[1 2 0 0 0 0 0 0]	[1 2 0 0 0 0 0 0]	6	1	44		wait    	0.00	0.00	0	car_arrival_stop    	Next bus stop is occupied or there is cart heading to next
+323	19113.0	C_1	[1 2 0 0 0 0 0 0]	[1 2 0 0 0 0 0 0]	6	1	44		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+324	19143.0	C_1	[1 2 0 0 0 0 0 0]	[0 2 0 0 0 0 0 0]	6	1	44		move    	0.00	0.00	0	decision_time_stopped	passengers are waiting in the cart
+325	19263.0	C_1	[0 2 0 0 0 0 0 0]	[0 2 0 0 0 0 0 0]	6	1	44		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+326	19266.0	C_1	[0 2 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	7	1	44		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+327	19296.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 2 0 0 0 0]	7	1	44		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+328	20381.0	C_1	[0 0 0 2 0 0 0 0]	[0 0 0 2 0 0 0 0]	7	0	45	S_3	move    	0.00	0.00	0	decision_time_stopped	Call received other than current stop
+329	20513.0	C_1	[0 0 0 2 0 0 0 0]	[0 0 0 2 0 0 0 0]	7	0	45	S_3	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+330	20644.0	C_1	[0 0 0 2 0 0 0 0]	[0 0 0 2 0 0 0 0]	0	0	45	S_3	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+331	20750.0	C_1	[0 0 0 2 0 0 0 0]	[0 0 0 2 0 0 0 0]	1	0	45	S_3	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+332	20804.0	C_1	[0 0 0 2 0 0 0 0]	[0 0 0 2 0 0 0 0]	2	0	45	S_3	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+333	20807.0	C_1	[0 0 0 2 0 0 0 0]	[0 0 0 2 0 0 0 0]	3	0	45	S_3	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+334	20837.0	C_1	[0 0 0 2 0 0 0 0]	[0 0 0 2 1 0 0 0]	3	0	45	S_3	wait    	0.00	0.00	0	decision_time_stopped	there are people waiting at the current stop and can get-in
+335	20867.0	C_1	[0 0 0 2 1 0 0 0]	[0 0 0 2 1 0 0 0]	3	0	45	S_4	wait    	0.00	0.00	0	decision_time_stopped	there are people waiting at the current stop and can get-in
+336	20897.0	C_1	[0 0 0 2 1 0 0 0]	[0 0 0 0 1 0 0 0]	3	0	45	S_4	wait    	0.00	0.00	0	decision_time_stopped	there are people waiting at the current stop and can get-in
+337	20907.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 2 0 1 0 1 0]	3	2	45		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+338	20960.0	C_1	[0 0 2 0 1 0 1 0]	[0 0 2 0 1 0 2 0]	3	2	45		stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+339	20963.0	C_1	[0 0 2 0 1 0 2 0]	[0 0 2 0 1 0 0 0]	4	2	45		wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+340	20993.0	C_1	[0 0 2 0 1 0 0 0]	[0 0 2 0 0 0 0 0]	4	2	45		wait    	0.00	0.00	0	decision_time_stopped	there are people waiting at the current stop and can get-in
+341	20999.0	C_1	[0 0 2 0 0 0 0 0]	[1 0 2 0 0 0 0 0]	4	3	45		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+342	21058.0	C_1	[1 0 2 0 0 0 0 0]	[1 0 2 0 0 0 0 0]	4	3	45		stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+343	21061.0	C_1	[1 0 2 0 0 0 0 0]	[1 0 2 0 0 0 0 0]	5	3	45		wait    	0.00	0.00	0	car_arrival_stop    	Next bus stop is occupied or there is cart heading to next
+344	21091.0	C_1	[1 0 2 0 0 0 0 0]	[1 0 2 0 0 0 0 0]	5	3	45		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+345	21121.0	C_1	[1 0 2 0 0 0 0 0]	[1 0 2 0 0 0 0 0]	5	3	45		move    	0.00	0.00	0	decision_time_stopped	passengers are waiting in the cart
+346	21172.0	C_1	[1 0 2 0 0 0 0 0]	[1 0 2 0 0 0 0 0]	5	3	45		stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+347	21175.0	C_1	[1 0 2 0 0 0 0 0]	[1 0 2 0 0 0 0 0]	6	3	45		wait    	0.00	0.00	0	car_arrival_stop    	Next bus stop is occupied or there is cart heading to next
+348	21205.0	C_1	[1 0 2 0 0 0 0 0]	[1 0 2 1 0 0 0 0]	6	3	45		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+349	21235.0	C_1	[1 0 2 1 0 0 0 0]	[0 0 2 1 0 0 0 0]	6	3	45		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+350	21265.0	C_1	[0 0 2 1 0 0 0 0]	[0 0 2 1 0 0 0 0]	6	3	45		move    	0.00	0.00	0	decision_time_stopped	passengers are waiting in the cart
+351	21385.0	C_1	[0 0 2 1 0 0 0 0]	[0 0 0 1 0 0 1 0]	6	3	45		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+352	21516.0	C_1	[0 0 0 1 0 0 1 0]	[0 0 0 1 0 0 1 0]	7	3	45		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+353	21519.0	C_1	[0 0 0 1 0 0 1 0]	[0 0 0 1 0 0 1 0]	0	3	45		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+354	21531.0	C_1	[0 0 0 1 0 0 1 0]	[0 0 0 0 0 0 1 0]	0	1	47		move    	0.00	0.00	0	alighting           	passengers are waiting in the cart
+355	21663.0	C_1	[0 0 0 0 0 0 1 0]	[0 0 0 0 0 0 1 0]	0	1	47		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+356	21666.0	C_1	[0 0 0 0 0 0 1 0]	[0 0 0 0 0 0 0 0]	1	1	47		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+357	22035.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	1	0	48		move    	0.00	0.00	0	decision_time_stopped	Behind there is a cart
+358	22325.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 1 0 0]	2	0	48		move    	0.00	0.00	0	decision_time_stopped	Behind there is a cart
+359	22564.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 0 1 0 0]	3	0	48	S_5	move    	0.00	0.00	0	decision_time_stopped	Call received other than current stop
+360	22617.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 1 1 0 0]	3	0	48	S_5	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+361	22674.0	C_1	[0 0 0 0 1 1 0 0]	[0 0 0 0 1 1 0 0]	4	0	48	S_5	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+362	22677.0	C_1	[0 0 0 0 1 1 0 0]	[0 0 0 0 1 0 0 0]	5	0	48	S_5	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+363	22685.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	5	1	48		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+364	22736.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	5	1	48		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+365	22854.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 0 0 0 0]	6	1	48		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+366	22985.0	C_1	[0 0 0 0 0 0 0 0]	[0 1 0 0 0 0 0 0]	7	1	48		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+367	23116.0	C_1	[0 1 0 0 0 0 0 0]	[0 1 0 0 0 0 0 0]	0	1	48	S_1	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+368	23119.0	C_1	[0 1 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	1	1	48	S_1	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+369	23126.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	1	2	48		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+370	23233.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 1 0 0 0]	1	2	48		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+371	23287.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	2	2	48	S_4	stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+372	23290.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	3	2	48	S_4	wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+373	23296.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	3	1	49	S_4	move    	0.00	0.00	0	alighting           	Call received other than current stop
+374	23349.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	3	1	49	S_4	stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+375	23352.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	4	1	49	S_4	wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+376	23360.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 0 0 0 0]	4	0	50	S_4	wait    	0.00	0.00	0	alighting           	there are people waiting at the current stop and can get-in
+377	23366.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	1	50		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+378	23425.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	1	50		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+379	23474.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	1	50		stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+380	23477.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	1	50		wait    	0.00	0.00	0	car_arrival_stop    	Next bus stop is occupied or there is cart heading to next
+381	23507.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 2 0 0 0 0 0]	6	1	50		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+382	23537.0	C_1	[0 0 2 0 0 0 0 0]	[0 0 2 0 0 0 0 0]	6	1	50		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+383	23567.0	C_1	[0 0 2 0 0 0 0 0]	[0 0 2 0 0 0 0 0]	6	1	50		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+384	23597.0	C_1	[0 0 2 0 0 0 0 0]	[0 0 2 0 0 0 0 0]	6	1	50		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+385	23627.0	C_1	[0 0 2 0 0 0 0 0]	[0 0 3 0 0 0 0 0]	6	1	50		move    	0.00	0.00	0	decision_time_stopped	passengers are waiting in the cart
+386	23747.0	C_1	[0 0 3 0 0 0 0 0]	[0 0 3 0 0 0 0 0]	6	1	50		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+387	23750.0	C_1	[0 0 3 0 0 0 0 0]	[0 0 3 0 0 0 0 0]	7	1	50		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+388	23780.0	C_1	[0 0 3 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	7	1	50		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+389	24146.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 1 0 1 0 0 0]	7	0	51		move    	0.00	0.00	0	decision_time_stopped	Behind there is a cart
+390	24371.0	C_1	[0 0 1 0 1 0 0 0]	[0 1 1 0 1 0 0 0]	0	0	51	S_4	move    	0.00	0.00	0	decision_time_stopped	Call received other than current stop
+391	24503.0	C_1	[0 1 1 0 1 0 0 0]	[0 1 1 0 1 0 0 0]	0	0	51	S_1	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+392	24506.0	C_1	[0 1 1 0 1 0 0 0]	[0 0 1 0 1 0 0 0]	1	0	51	S_1	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+393	24512.0	C_1	[0 0 1 0 1 0 0 0]	[0 0 1 1 1 0 0 0]	1	1	51		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+394	24619.0	C_1	[0 0 1 1 1 0 0 0]	[0 0 1 1 1 0 0 0]	1	1	51	S_3	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+395	24622.0	C_1	[0 0 1 1 1 0 0 0]	[0 0 0 1 1 0 0 0]	2	1	51	S_3	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+396	24631.0	C_1	[0 0 0 1 1 0 0 0]	[0 0 0 1 1 0 0 0]	2	2	51		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+397	24687.0	C_1	[0 0 0 1 1 0 0 0]	[0 0 0 1 1 0 0 0]	2	2	51		stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+398	24690.0	C_1	[0 0 0 1 1 0 0 0]	[0 0 0 0 1 0 0 0]	3	2	51		wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+399	24696.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	3	3	51		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+400	24749.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	3	3	51		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+401	24752.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	4	3	51		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+402	24758.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 0 0 0 0]	4	2	52		wait    	0.00	0.00	0	alighting           	there are people waiting at the current stop and can get-in
+403	24764.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 1 0 1 0 0 0]	4	3	52		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+404	24823.0	C_1	[0 0 1 0 1 0 0 0]	[0 0 1 0 1 0 0 0]	4	3	52		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+405	24872.0	C_1	[0 0 1 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	5	3	52		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+406	24990.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	6	3	52		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+407	24993.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	7	3	52		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+408	25000.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 0 0 0 0]	7	1	54		move    	0.00	0.00	0	alighting           	passengers are waiting in the cart
+409	25132.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	7	1	54		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+410	25135.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 1 0 0]	0	1	54		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+411	25237.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 1 1 0 0]	0	0	55	S_5	move    	0.00	0.00	0	decision_time_stopped	Call received other than current stop
+412	25369.0	C_1	[0 0 0 0 1 1 0 0]	[0 0 0 0 1 3 0 0]	0	0	55	S_4	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+413	25475.0	C_1	[0 0 0 0 1 3 0 0]	[0 0 0 3 1 3 0 0]	1	0	55	S_5	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+414	25529.0	C_1	[0 0 0 3 1 3 0 0]	[0 0 0 3 1 3 0 0]	2	0	55	S_3	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+415	25532.0	C_1	[0 0 0 3 1 3 0 0]	[0 0 0 0 1 3 0 0]	3	0	55	S_3	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+416	25543.0	C_1	[0 0 0 0 1 3 0 0]	[0 0 0 0 1 3 0 0]	3	3	55		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+417	25596.0	C_1	[0 0 0 0 1 3 0 0]	[0 0 0 0 1 3 0 0]	3	3	55		stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+418	25599.0	C_1	[0 0 0 0 1 3 0 0]	[0 0 0 0 0 3 0 0]	4	3	55		wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+419	25607.0	C_1	[0 0 0 0 0 3 0 0]	[0 0 0 0 0 3 0 0]	4	4	55		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+420	25666.0	C_1	[0 0 0 0 0 3 0 0]	[0 0 0 0 0 3 0 0]	4	4	55		stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+421	25669.0	C_1	[0 0 0 0 0 3 0 0]	[0 0 0 0 0 0 0 0]	5	4	55		wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+422	25678.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	7	55		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+423	25729.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	7	55		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+424	25847.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	6	7	55		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+425	25978.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	7	7	55		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+426	25981.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	0	7	55		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+427	26011.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	0	7	55		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+428	26041.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	0	7	55		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+429	26071.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	0	7	55		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+430	26101.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	0	7	55		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+431	26131.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	0	7	55		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+432	26161.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	0	7	55		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+433	26169.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 2 0]	0	4	58		move    	0.00	0.00	0	alighting           	passengers are waiting in the cart
+434	26301.0	C_1	[0 0 0 0 0 0 2 0]	[0 0 0 0 0 0 0 0]	0	4	58		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+435	26407.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	1	4	58		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+436	26410.0	C_1	[0 0 0 0 0 0 0 0]	[0 1 0 0 0 0 0 0]	2	4	58		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+437	26807.0	C_1	[0 1 0 0 0 0 0 0]	[1 0 2 0 0 0 0 0]	2	0	62		move    	0.00	0.00	0	decision_time_stopped	Behind there is a cart
+438	27016.0	C_1	[1 0 2 0 0 0 0 0]	[1 0 3 0 0 0 0 0]	3	0	62	S_0	move    	0.00	0.00	0	decision_time_stopped	Call received other than current stop
+439	27069.0	C_1	[1 0 3 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	3	0	62	S_2	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+440	27126.0	C_1	[1 0 0 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	4	0	62	S_2	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+441	27175.0	C_1	[1 0 0 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	5	0	62	S_2	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+442	27293.0	C_1	[1 0 0 0 0 0 0 0]	[1 0 1 0 0 0 0 0]	6	0	62	S_2	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+443	27424.0	C_1	[1 0 1 0 0 0 0 0]	[1 0 1 0 0 0 0 0]	7	0	62	S_2	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+444	27427.0	C_1	[1 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	0	0	62	S_2	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+445	27436.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	0	1	62		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+446	27568.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	0	1	62		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+447	27674.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	1	1	62		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+448	27677.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	2	1	62		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+449	27683.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	0	63		wait    	0.00	0.00	0	alighting           	there are people waiting at the current stop and can get-in
+450	27689.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	1	63		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+451	27745.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	1	63		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+452	27796.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	3	1	63		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+453	27853.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	1	63		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+454	27902.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	1	63		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+455	27905.0	C_1	[0 0 0 0 0 0 0 0]	[0 1 0 0 0 0 0 0]	6	1	63		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+456	28301.0	C_1	[0 1 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	0	64	S_1	move    	0.00	0.00	0	decision_time_stopped	Call received other than current stop
+457	28421.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	0	64	S_1	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+458	28552.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 4 0 0 0 0 0]	7	0	64	S_1	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+459	28683.0	C_1	[0 0 4 0 0 0 0 0]	[0 0 4 0 0 0 0 0]	0	0	64	S_2	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+460	28789.0	C_1	[0 0 4 0 0 0 0 0]	[0 0 4 0 0 0 0 0]	1	0	64	S_2	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+461	28792.0	C_1	[0 0 4 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	0	64	S_2	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+462	28799.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	4	64		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+463	28855.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	4	64		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+464	28906.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	3	4	64		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+465	28909.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	4	64		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+466	28947.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	0	68	S_7	move    	0.00	0.00	0	decision_time_stopped	Call received other than current stop
+467	29006.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	0	68	S_7	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+468	29055.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	0	68	S_7	stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+469	29058.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	0	68	S_7	wait    	0.00	0.00	0	car_arrival_stop    	Next bus stop is occupied or there is cart heading to next
+470	29088.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 1]	6	0	68	S_7	move    	0.00	0.00	0	decision_time_stopped	Call received other than current stop
+471	29208.0	C_1	[0 0 0 0 0 0 0 1]	[0 0 0 0 0 0 0 1]	6	0	68	S_7	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+472	29211.0	C_1	[0 0 0 0 0 0 0 1]	[0 0 0 0 0 0 0 0]	7	0	68	S_7	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+473	29219.0	C_1	[0 0 0 0 0 0 0 0]	[3 0 0 0 0 0 0 0]	7	1	68		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+474	29351.0	C_1	[3 0 0 0 0 0 0 0]	[3 0 0 0 0 0 0 0]	7	1	68	S_0	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+475	29354.0	C_1	[3 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	0	1	68	S_0	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+476	29362.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	0	4	68		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+477	29494.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	0	4	68		stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+478	29497.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	1	4	68		wait    	0.00	0.00	0	car_arrival_stop    	Next bus stop is occupied or there is cart heading to next
+479	29527.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	1	4	68		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+480	29557.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	1	4	68		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+481	29587.0	C_1	[0 0 0 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	1	4	68		move    	0.00	0.00	0	decision_time_stopped	passengers are waiting in the cart
+482	29694.0	C_1	[1 0 0 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	1	4	68		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+483	29697.0	C_1	[1 0 0 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	2	4	68		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+484	29709.0	C_1	[1 0 0 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	2	3	69		move    	0.00	0.00	0	alighting           	passengers are waiting in the cart
+485	29765.0	C_1	[1 0 0 0 0 0 0 0]	[1 0 0 0 0 1 0 0]	2	3	69		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+486	29816.0	C_1	[1 0 0 0 0 1 0 0]	[1 0 0 0 0 1 0 0]	3	3	69	S_5	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+487	29873.0	C_1	[1 0 0 0 0 1 0 0]	[1 0 0 0 0 1 0 0]	4	3	69	S_5	stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+488	29876.0	C_1	[1 0 0 0 0 1 0 0]	[1 0 0 0 0 1 0 0]	5	3	69	S_5	wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+489	29906.0	C_1	[1 0 0 0 0 1 0 0]	[1 0 0 0 0 1 0 0]	5	3	69	S_5	wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+490	29917.0	C_1	[1 0 0 0 0 1 0 0]	[1 0 0 0 0 0 0 0]	5	2	70	S_5	wait    	0.00	0.00	0	alighting           	there are people waiting at the current stop and can get-in
+491	29922.0	C_1	[1 0 0 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	5	3	70		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+492	29973.0	C_1	[1 0 0 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	5	3	70		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+493	29976.0	C_1	[1 0 0 0 0 0 0 0]	[1 0 0 0 0 1 0 3]	6	3	70		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+494	30006.0	C_1	[1 0 0 0 0 1 0 3]	[0 0 0 0 0 1 0 3]	6	3	70	S_7	wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+495	30036.0	C_1	[0 0 0 0 0 1 0 3]	[0 0 0 0 0 1 0 3]	6	3	70	S_7	wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+496	30047.0	C_1	[0 0 0 0 0 1 0 3]	[0 0 0 3 0 1 0 3]	6	1	72	S_7	move    	0.00	0.00	0	alighting           	Call received other than current stop
+497	30167.0	C_1	[0 0 0 3 0 1 0 3]	[0 0 0 3 0 1 0 3]	6	1	72	S_7	stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+498	30170.0	C_1	[0 0 0 3 0 1 0 3]	[0 0 0 3 0 1 0 3]	7	1	72	S_7	wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+499	30177.0	C_1	[0 0 0 3 0 1 0 3]	[0 0 0 3 0 1 0 0]	7	0	73	S_7	wait    	0.00	0.00	0	alighting           	there are people waiting at the current stop and can get-in
+500	30187.0	C_1	[0 0 0 3 0 1 0 0]	[0 0 0 4 0 1 0 0]	7	3	73		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+501	30319.0	C_1	[0 0 0 4 0 1 0 0]	[0 0 0 4 0 1 0 0]	7	3	73		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+502	30322.0	C_1	[0 0 0 4 0 1 0 0]	[0 0 1 0 0 0 0 0]	0	3	73		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+503	30511.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	0	0	76	S_2	move    	0.00	0.00	0	decision_time_stopped	Call received other than current stop
+504	30643.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 1 0]	0	0	76	S_2	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+505	30749.0	C_1	[0 0 1 0 0 0 1 0]	[0 0 1 0 0 0 1 0]	1	0	76	S_6	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+506	30752.0	C_1	[0 0 1 0 0 0 1 0]	[0 0 0 0 0 0 1 0]	2	0	76	S_6	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+507	30761.0	C_1	[0 0 0 0 0 0 1 0]	[0 0 0 0 0 0 1 0]	2	1	76		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+508	30817.0	C_1	[0 0 0 0 0 0 1 0]	[0 0 0 0 0 0 1 0]	2	1	76		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+509	30868.0	C_1	[0 0 0 0 0 0 1 0]	[0 0 0 0 0 0 1 0]	3	1	76		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+510	30925.0	C_1	[0 0 0 0 0 0 1 0]	[0 0 0 0 0 0 1 0]	4	1	76		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+511	30974.0	C_1	[0 0 0 0 0 0 1 0]	[0 0 0 0 0 0 1 0]	5	1	76		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+512	30977.0	C_1	[0 0 0 0 0 0 1 0]	[0 0 0 0 0 0 1 0]	6	1	76		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+513	30983.0	C_1	[0 0 0 0 0 0 1 0]	[0 0 0 0 0 0 0 0]	6	0	77		wait    	0.00	0.00	0	alighting           	there are people waiting at the current stop and can get-in
+514	30991.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	1	77		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+515	31111.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	1	77		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+516	31242.0	C_1	[0 0 0 0 0 0 0 0]	[1 0 0 0 0 0 2 0]	7	1	77		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+517	31373.0	C_1	[1 0 0 0 0 0 2 0]	[1 0 0 0 0 0 2 0]	0	1	77		stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+518	31376.0	C_1	[1 0 0 0 0 0 2 0]	[1 0 1 0 0 0 2 0]	1	1	77		wait    	0.00	0.00	0	car_arrival_stop    	Next bus stop is occupied or there is cart heading to next
+519	31406.0	C_1	[1 0 1 0 0 0 2 0]	[1 0 5 0 4 0 2 0]	1	1	77	S_2	move    	0.00	0.00	0	decision_time_stopped	Call received other than current stop
+520	31513.0	C_1	[1 0 5 0 4 0 2 0]	[1 0 5 0 4 0 2 0]	1	1	77	S_2	stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+521	31516.0	C_1	[1 0 5 0 4 0 2 0]	[1 0 5 0 4 0 2 0]	2	1	77	S_2	wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+522	31521.0	C_1	[1 0 5 0 4 0 2 0]	[1 0 0 0 4 0 2 0]	2	0	78	S_2	wait    	0.00	0.00	0	alighting           	there are people waiting at the current stop and can get-in
+523	31529.0	C_1	[1 0 0 0 4 0 2 0]	[1 0 0 0 4 0 3 0]	2	5	78		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+524	31585.0	C_1	[1 0 0 0 4 0 3 0]	[1 0 1 0 4 0 3 2]	2	5	78	S_6	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+525	31636.0	C_1	[1 0 1 0 4 0 3 2]	[1 0 1 0 4 0 3 2]	3	5	78	S_6	stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+526	31639.0	C_1	[1 0 1 0 4 0 3 2]	[1 0 1 0 4 0 3 2]	4	5	78	S_6	wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+527	31645.0	C_1	[1 0 1 0 4 0 3 2]	[1 0 1 0 0 0 3 2]	4	1	82	S_6	wait    	0.00	0.00	0	alighting           	there are people waiting at the current stop and can get-in
+528	31654.0	C_1	[1 0 1 0 0 0 3 2]	[1 0 1 0 0 1 3 0]	4	5	82		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+529	31713.0	C_1	[1 0 1 0 0 1 3 0]	[1 0 1 0 0 1 3 0]	4	5	82	S_5	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+530	31716.0	C_1	[1 0 1 0 0 1 3 0]	[1 0 1 0 0 0 3 0]	5	5	82	S_5	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+531	31722.0	C_1	[1 0 1 0 0 0 3 0]	[1 0 1 0 0 0 3 0]	5	6	82		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+532	31773.0	C_1	[1 0 1 0 0 0 3 0]	[1 0 1 0 0 0 3 0]	5	6	82		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+533	31776.0	C_1	[1 0 1 0 0 0 3 0]	[1 0 1 0 0 0 3 0]	6	6	82		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+534	31806.0	C_1	[1 0 1 0 0 0 3 0]	[1 0 1 0 0 0 3 0]	6	6	82		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+535	31836.0	C_1	[1 0 1 0 0 0 3 0]	[0 0 1 0 0 0 3 0]	6	6	82		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+536	31846.0	C_1	[0 0 1 0 0 0 3 0]	[0 0 1 0 0 0 0 0]	6	2	86		wait    	0.00	0.00	0	alighting           	there are people waiting at the current stop and can get-in
+537	31857.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 1 0 2 0]	6	5	86		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+538	31977.0	C_1	[0 0 1 0 1 0 2 0]	[0 0 1 0 1 0 2 0]	6	5	86		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+539	31980.0	C_1	[0 0 1 0 1 0 2 0]	[0 0 1 0 1 0 2 0]	7	5	86		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+540	31986.0	C_1	[0 0 1 0 1 0 2 0]	[0 0 0 0 1 0 2 2]	7	4	87		move    	0.00	0.00	0	alighting           	passengers are waiting in the cart
+541	32118.0	C_1	[0 0 0 0 1 0 2 2]	[0 0 0 0 0 1 2 2]	7	4	87		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+542	32249.0	C_1	[0 0 0 0 0 1 2 2]	[0 0 0 0 0 0 2 2]	0	4	87		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+543	32355.0	C_1	[0 0 0 0 0 0 2 2]	[0 0 0 0 0 0 0 2]	1	4	87		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+544	32409.0	C_1	[0 0 0 0 0 0 0 2]	[0 0 1 0 0 1 0 2]	2	4	87	S_6	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+545	32460.0	C_1	[0 0 1 0 0 1 0 2]	[0 0 1 0 0 1 0 2]	3	4	87	S_5	stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+546	32463.0	C_1	[0 0 1 0 0 1 0 2]	[1 0 1 0 0 1 0 2]	4	4	87	S_5	wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+547	32469.0	C_1	[1 0 1 0 0 1 0 2]	[1 0 1 0 0 1 0 0]	4	3	88	S_5	move    	0.00	0.00	0	alighting           	Call received other than current stop
+548	32528.0	C_1	[1 0 1 0 0 1 0 0]	[1 0 1 0 0 1 0 0]	4	3	88	S_5	stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+549	32531.0	C_1	[1 0 1 0 0 1 0 0]	[1 0 1 0 0 1 0 0]	5	3	88	S_5	wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+550	32537.0	C_1	[1 0 1 0 0 1 0 0]	[1 0 1 0 0 0 0 0]	5	0	91	S_5	wait    	0.00	0.00	0	alighting           	there are people waiting at the current stop and can get-in
+551	32542.0	C_1	[1 0 1 0 0 0 0 0]	[1 0 1 0 0 0 0 0]	5	1	91		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+552	32593.0	C_1	[1 0 1 0 0 0 0 0]	[1 0 1 0 0 0 0 0]	5	1	91		stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+553	32596.0	C_1	[1 0 1 0 0 0 0 0]	[1 0 1 0 0 0 0 0]	6	1	91		wait    	0.00	0.00	0	car_arrival_stop    	Next bus stop is occupied or there is cart heading to next
+554	32626.0	C_1	[1 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	6	1	91		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+555	32656.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	6	1	91		move    	0.00	0.00	0	decision_time_stopped	passengers are waiting in the cart
+556	32776.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 4 0 0]	6	1	91		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+557	32907.0	C_1	[0 0 1 0 0 4 0 0]	[0 0 1 0 0 4 0 0]	7	1	91		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+558	32910.0	C_1	[0 0 1 0 0 4 0 0]	[0 0 0 0 0 0 1 1]	0	1	91		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+559	33666.0	C_1	[0 0 0 0 0 0 1 1]	[0 0 0 0 0 0 1 1]	0	0	92	S_6	move    	0.00	0.00	0	decision_time_stopped	Call received other than current stop
+560	33798.0	C_1	[0 0 0 0 0 0 1 1]	[0 0 0 0 1 0 1 0]	0	0	92	S_6	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+561	33904.0	C_1	[0 0 0 0 1 0 1 0]	[0 0 0 0 1 0 1 0]	1	0	92	S_4	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+562	33958.0	C_1	[0 0 0 0 1 0 1 0]	[0 0 0 0 1 0 1 0]	2	0	92	S_4	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+563	34009.0	C_1	[0 0 0 0 1 0 1 0]	[0 0 0 0 1 0 1 0]	3	0	92	S_4	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+564	34012.0	C_1	[0 0 0 0 1 0 1 0]	[0 0 0 0 0 0 1 0]	4	0	92	S_4	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+565	34020.0	C_1	[0 0 0 0 0 0 1 0]	[0 0 0 0 0 0 1 0]	4	1	92		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+566	34079.0	C_1	[0 0 0 0 0 0 1 0]	[0 0 0 0 0 0 1 0]	4	1	92		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+567	34128.0	C_1	[0 0 0 0 0 0 1 0]	[0 0 0 0 0 0 1 0]	5	1	92		stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+568	34131.0	C_1	[0 0 0 0 0 0 1 0]	[0 0 0 0 0 0 0 0]	6	1	92		wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+569	34141.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	2	92		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+570	34261.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	2	92		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+571	34392.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	7	2	92		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+572	34395.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	0	2	92		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+573	34405.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	0	1	93		move    	0.00	0.00	0	alighting           	passengers are waiting in the cart
+574	34537.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	0	1	93		stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+575	34540.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	1	1	93		wait    	0.00	0.00	0	car_arrival_stop    	Next bus stop is occupied or there is cart heading to next
+576	34570.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	1	1	93		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+577	34600.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	1	1	93		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+578	34630.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	1	1	93		move    	0.00	0.00	0	decision_time_stopped	passengers are waiting in the cart
+579	34737.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	1	1	93		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+580	34740.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	1	93		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+581	34770.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	1	93		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+582	34800.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	1	93		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+583	34830.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 2 0 0 0 0]	2	1	93		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+584	35166.0	C_1	[0 0 0 2 0 0 0 0]	[0 0 0 2 0 0 0 0]	2	0	94	S_3	move    	0.00	0.00	0	decision_time_stopped	Call received other than current stop
+585	35222.0	C_1	[0 0 0 2 0 0 0 0]	[0 0 0 2 0 0 0 0]	2	0	94	S_3	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+586	35225.0	C_1	[0 0 0 2 0 0 0 0]	[0 0 0 2 0 0 0 0]	3	0	94	S_3	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+587	35255.0	C_1	[0 0 0 2 0 0 0 0]	[0 0 0 2 0 0 0 0]	3	0	94	S_3	wait    	0.00	0.00	0	decision_time_stopped	there are people waiting at the current stop and can get-in
+588	35285.0	C_1	[0 0 0 2 0 0 0 0]	[0 0 0 2 0 0 0 0]	3	0	94	S_3	wait    	0.00	0.00	0	decision_time_stopped	there are people waiting at the current stop and can get-in
+589	35315.0	C_1	[0 0 0 2 0 0 0 0]	[0 0 0 2 0 0 0 0]	3	0	94	S_3	wait    	0.00	0.00	0	decision_time_stopped	there are people waiting at the current stop and can get-in
+590	35345.0	C_1	[0 0 0 2 0 0 0 0]	[0 0 0 0 0 0 0 0]	3	0	94	S_3	wait    	0.00	0.00	0	decision_time_stopped	there are people waiting at the current stop and can get-in
+591	35353.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	3	2	94		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+592	35406.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	3	2	94		stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+593	35409.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	2	94		wait    	0.00	0.00	0	car_arrival_stop    	Next bus stop is occupied or there is cart heading to next
+594	35439.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	2	94		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+595	35469.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	2	94		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+596	35499.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	2	94		move    	0.00	0.00	0	decision_time_stopped	passengers are waiting in the cart
+597	35558.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	2	94		stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+598	35561.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	2	94		wait    	0.00	0.00	0	car_arrival_stop    	Next bus stop is occupied or there is cart heading to next
+599	35591.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	2	94		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+600	35621.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	2	94		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+601	35651.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	2	94		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+602	35681.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	2	94		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+603	35711.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	2	94		move    	0.00	0.00	0	decision_time_stopped	passengers are waiting in the cart
+604	35762.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	2	94		stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+605	35765.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	2	94		wait    	0.00	0.00	0	car_arrival_stop    	Next bus stop is occupied or there is cart heading to next
+606	35795.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	2	94		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+607	35825.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	2	94		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+608	35855.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	2	94		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+609	35885.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	2	94		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+610	35915.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	2	94		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+611	35945.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	2	94		move    	0.00	0.00	0	decision_time_stopped	passengers are waiting in the cart
+612	36065.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	2	94		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+613	36068.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	7	2	94		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+614	36098.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	7	2	94		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+615	36128.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 2 0]	7	2	94		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+616	36158.0	C_1	[0 0 0 0 0 0 2 0]	[0 0 1 0 0 0 2 0]	7	2	94		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+617	36188.0	C_1	[0 0 1 0 0 0 2 0]	[0 0 1 0 0 0 2 0]	7	2	94		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+618	36218.0	C_1	[0 0 1 0 0 0 2 0]	[0 0 1 0 0 0 3 0]	7	2	94		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+619	36248.0	C_1	[0 0 1 0 0 0 3 0]	[0 0 1 0 0 0 4 0]	7	2	94		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+620	36278.0	C_1	[0 0 1 0 0 0 4 0]	[0 0 1 0 0 0 4 0]	7	2	94		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+621	36308.0	C_1	[0 0 1 0 0 0 4 0]	[0 0 2 0 0 0 5 0]	7	2	94		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+622	37243.0	C_1	[0 0 2 0 0 0 5 0]	[0 0 2 0 0 0 5 0]	7	0	96	S_2	move    	0.00	0.00	0	decision_time_stopped	Call received other than current stop
+623	37375.0	C_1	[0 0 2 0 0 0 5 0]	[0 0 2 0 0 0 0 0]	7	0	96	S_2	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+624	37506.0	C_1	[0 0 2 0 0 0 0 0]	[0 0 2 0 0 0 0 0]	0	0	96	S_2	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+625	37612.0	C_1	[0 0 2 0 0 0 0 0]	[0 0 2 0 0 0 0 0]	1	0	96	S_2	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+626	37615.0	C_1	[0 0 2 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	0	96	S_2	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+627	37622.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	2	96		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+628	37678.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	2	96		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+629	37729.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	3	2	96		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+630	37786.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 1 0]	4	2	96		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+631	37835.0	C_1	[0 0 0 0 0 0 1 0]	[0 0 0 0 0 0 1 0]	5	2	96	S_6	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+632	37838.0	C_1	[0 0 0 0 0 0 1 0]	[0 0 0 0 0 0 0 0]	6	2	96	S_6	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+633	37845.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	3	96		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+634	37965.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	3	96		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+635	37968.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 1 0]	7	3	96		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+636	38155.0	C_1	[0 0 0 0 0 0 1 0]	[0 0 0 0 0 0 2 0]	7	0	99		move    	0.00	0.00	0	decision_time_stopped	Behind there is a cart
+637	38287.0	C_1	[0 0 0 0 0 0 2 0]	[0 0 0 0 0 0 0 0]	7	0	99	S_6	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+638	38418.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	0	0	99	S_6	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+639	38524.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	1	0	99	S_6	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+640	38578.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	0	99	S_6	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+641	38629.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 1 0]	3	0	99	S_6	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+642	38686.0	C_1	[0 0 0 0 0 0 1 0]	[0 0 0 0 0 0 1 0]	4	0	99	S_6	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+643	38735.0	C_1	[0 0 0 0 0 0 1 0]	[0 0 0 0 0 0 1 0]	5	0	99	S_6	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+644	38738.0	C_1	[0 0 0 0 0 0 1 0]	[0 0 0 0 0 0 0 0]	6	0	99	S_6	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+645	38744.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	1	99		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+646	38864.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	1	99		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+647	38995.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	7	1	99		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+648	39126.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	0	1	99		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+649	39232.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	1	1	99		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+650	39286.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	1	99		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+651	39337.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	3	1	99		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+652	39340.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 1 0]	4	1	99		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+653	39405.0	C_1	[0 0 0 0 0 0 1 0]	[0 0 0 0 0 0 1 0]	4	0	100	S_6	move    	0.00	0.00	0	decision_time_stopped	Call received other than current stop
+654	39464.0	C_1	[0 0 0 0 0 0 1 0]	[0 0 0 0 0 0 1 0]	4	0	100	S_6	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+655	39513.0	C_1	[0 0 0 0 0 0 1 0]	[0 0 0 0 0 0 1 0]	5	0	100	S_6	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+656	39516.0	C_1	[0 0 0 0 0 0 1 0]	[0 0 0 0 0 0 0 0]	6	0	100	S_6	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+657	39521.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	1	100		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+658	39641.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	1	100		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+659	39772.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	7	1	100		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+660	39903.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	0	1	100		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+661	40009.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	1	1	100		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+662	40063.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	1	100		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+663	40066.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 4 0 0 0 0 0]	3	1	100		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+664	40282.0	C_1	[0 0 4 0 0 0 0 0]	[1 0 4 0 0 0 0 0]	3	0	101		move    	0.00	0.00	0	decision_time_stopped	Behind there is a cart
+665	40335.0	C_1	[1 0 4 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	3	0	101	S_0	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+666	40392.0	C_1	[1 0 0 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	4	0	101	S_0	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+667	40441.0	C_1	[1 0 0 0 0 0 0 0]	[1 0 0 0 0 0 1 0]	5	0	101	S_0	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+668	40559.0	C_1	[1 0 0 0 0 0 1 0]	[1 0 0 0 0 0 1 0]	6	0	101	S_0	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+669	40690.0	C_1	[1 0 0 0 0 0 1 0]	[1 0 0 0 0 0 1 0]	7	0	101	S_0	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+670	40693.0	C_1	[1 0 0 0 0 0 1 0]	[0 0 0 0 0 0 1 0]	0	0	101	S_0	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+671	40699.0	C_1	[0 0 0 0 0 0 1 0]	[0 0 0 0 1 0 0 0]	0	1	101		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+672	40831.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	0	1	101	S_4	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+673	40937.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 1 4 0 0]	1	1	101	S_4	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+674	40991.0	C_1	[0 0 0 0 1 4 0 0]	[0 0 0 0 1 4 0 0]	2	1	101	S_5	stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+675	40994.0	C_1	[0 0 0 0 1 4 0 0]	[0 0 0 0 1 4 0 0]	3	1	101	S_5	wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+676	41004.0	C_1	[0 0 0 0 1 4 0 0]	[0 0 0 0 1 4 0 0]	3	0	102	S_5	move    	0.00	0.00	0	alighting           	Call received other than current stop
+677	41057.0	C_1	[0 0 0 0 1 4 0 0]	[0 0 0 0 1 4 0 0]	3	0	102	S_5	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+678	41060.0	C_1	[0 0 0 0 1 4 0 0]	[0 0 0 0 0 4 0 0]	4	0	102	S_5	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+679	41069.0	C_1	[0 0 0 0 0 4 0 0]	[0 0 0 0 0 4 0 0]	4	1	102		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+680	41128.0	C_1	[0 0 0 0 0 4 0 0]	[0 0 0 0 0 4 0 0]	4	1	102		stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+681	41131.0	C_1	[0 0 0 0 0 4 0 0]	[0 0 0 0 0 0 0 0]	5	1	102		wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+682	41143.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 2 0 0]	5	5	102		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+683	41194.0	C_1	[0 0 0 0 0 2 0 0]	[0 0 0 0 0 2 0 0]	5	5	102		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+684	41312.0	C_1	[0 0 0 0 0 2 0 0]	[0 0 0 0 1 0 0 0]	6	5	102		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+685	41443.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	7	5	102	S_4	stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+686	41446.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	0	5	102	S_4	wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+687	41451.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	0	4	103	S_4	move    	0.00	0.00	0	alighting           	Call received other than current stop
+688	41583.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	0	4	103	S_4	stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+689	41586.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 0 1 0 0 0]	1	4	103	S_4	wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+690	41597.0	C_1	[0 0 0 0 1 0 0 0]	[0 0 0 2 1 0 0 0]	1	0	107	S_4	move    	0.00	0.00	0	alighting           	Call received other than current stop
+691	41704.0	C_1	[0 0 0 2 1 0 0 0]	[0 0 0 2 1 1 0 0]	1	0	107	S_3	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+692	41758.0	C_1	[0 0 0 2 1 1 0 0]	[0 0 0 2 1 1 0 0]	2	0	107	S_5	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+693	41761.0	C_1	[0 0 0 2 1 1 0 0]	[0 0 0 0 1 1 0 0]	3	0	107	S_5	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+694	41770.0	C_1	[0 0 0 0 1 1 0 0]	[0 0 0 0 1 1 0 0]	3	2	107		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+695	41823.0	C_1	[0 0 0 0 1 1 0 0]	[0 0 0 0 1 1 0 0]	3	2	107		stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+696	41826.0	C_1	[0 0 0 0 1 1 0 0]	[0 0 0 0 0 1 0 0]	4	2	107		wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+697	41831.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 0 1 0 0]	4	3	107		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+698	41890.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 0 1 0 0]	4	3	107		stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+699	41893.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 0 0 0 0]	5	3	107		wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+700	41905.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	4	107		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+701	41956.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 2 0 0 0]	5	4	107		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+702	42074.0	C_1	[0 0 0 0 2 0 0 0]	[0 0 0 0 2 0 0 0]	6	4	107		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+703	42077.0	C_1	[0 0 0 0 2 0 0 0]	[0 0 0 2 2 0 0 0]	7	4	107		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+704	42107.0	C_1	[0 0 0 2 2 0 0 0]	[0 0 0 2 3 0 0 0]	7	4	107		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+705	42137.0	C_1	[0 0 0 2 3 0 0 0]	[0 0 0 2 3 0 0 0]	7	4	107		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+706	42142.0	C_1	[0 0 0 2 3 0 0 0]	[0 0 0 2 3 0 0 0]	7	3	108		move    	0.00	0.00	0	alighting           	passengers are waiting in the cart
+707	42274.0	C_1	[0 0 0 2 3 0 0 0]	[0 0 0 0 0 1 0 0]	7	3	108		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+708	42405.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 0 1 0 0]	0	3	108		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+709	42408.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 0 1 0 0]	1	3	108		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+710	42417.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 0 0 0 0]	1	1	110		move    	0.00	0.00	0	alighting           	passengers are waiting in the cart
+711	42524.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	1	1	110		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+712	42578.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	1	110		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+713	42581.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 1 0 0]	3	1	110		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+714	42616.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 0 1 0 0]	3	0	111	S_5	move    	0.00	0.00	0	decision_time_stopped	Call received other than current stop
+715	42669.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 0 1 0 0]	3	0	111	S_5	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+716	42726.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 0 1 0 0]	4	0	111	S_5	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+717	42729.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 0 0 0 0]	5	0	111	S_5	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+718	42736.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	1	111		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+719	42787.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	1	111		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+720	42905.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	1	111		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+721	43036.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	7	1	111		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+722	43167.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	0	1	111		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+723	43273.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	1	1	111	S_2	stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+724	43276.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 1 0 0 0 0 0]	2	1	111	S_2	wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+725	43286.0	C_1	[0 0 1 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	0	112	S_2	wait    	0.00	0.00	0	alighting           	there are people waiting at the current stop and can get-in
+726	43295.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	1	112		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+727	43351.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	1	112		stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+728	43354.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	3	1	112		wait    	0.00	0.00	0	car_arrival_stop    	Next bus stop is occupied or there is cart heading to next
+729	43384.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	3	1	112		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+730	43414.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	3	1	112		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+731	43444.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	3	1	112		move    	0.00	0.00	0	decision_time_stopped	passengers are waiting in the cart
+732	43497.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	3	1	112		stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+733	43500.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	1	112		wait    	0.00	0.00	0	car_arrival_stop    	Next bus stop is occupied or there is cart heading to next
+734	43530.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	1	112		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+735	43560.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	1	112		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+736	43590.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	1	112		move    	0.00	0.00	0	decision_time_stopped	passengers are waiting in the cart
+737	43649.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	1	112		stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+738	43652.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	1	112		wait    	0.00	0.00	0	car_arrival_stop    	Next bus stop is occupied or there is cart heading to next
+739	43682.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	1	112		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+740	43712.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 1 0 0]	5	1	112		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+741	43742.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 0 1 0 0]	5	1	112		wait    	0.00	0.00	0	decision_time_stopped	there are people waiting at the current stop and can get-in
+742	43772.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 0 1 0 0]	5	1	112		wait    	0.00	0.00	0	decision_time_stopped	there are people waiting at the current stop and can get-in
+743	43802.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 0 0 0 0]	5	1	112		wait    	0.00	0.00	0	decision_time_stopped	there are people waiting at the current stop and can get-in
+744	43809.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 4 0 0]	5	2	112		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+745	43860.0	C_1	[0 0 0 0 0 4 0 0]	[0 0 0 0 0 4 0 0]	5	2	112		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+746	43863.0	C_1	[0 0 0 0 0 4 0 0]	[0 0 0 0 0 4 0 0]	6	2	112		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+747	43893.0	C_1	[0 0 0 0 0 4 0 0]	[0 0 0 0 0 4 0 0]	6	2	112		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+748	43923.0	C_1	[0 0 0 0 0 4 0 0]	[0 0 0 0 0 4 0 0]	6	2	112		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+749	43928.0	C_1	[0 0 0 0 0 4 0 0]	[0 0 0 0 0 5 0 0]	6	1	113		move    	0.00	0.00	0	alighting           	passengers are waiting in the cart
+750	44048.0	C_1	[0 0 0 0 0 5 0 0]	[0 0 0 0 0 6 0 2]	6	1	113		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+751	44179.0	C_1	[0 0 0 0 0 6 0 2]	[0 0 0 0 0 6 0 2]	7	1	113		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+752	44182.0	C_1	[0 0 0 0 0 6 0 2]	[0 0 0 0 2 0 0 2]	0	1	113		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+753	44669.0	C_1	[0 0 0 0 2 0 0 2]	[0 0 0 0 2 0 0 2]	0	0	114	S_4	move    	0.00	0.00	0	decision_time_stopped	Call received other than current stop
+754	44801.0	C_1	[0 0 0 0 2 0 0 2]	[0 0 0 0 2 0 0 0]	0	0	114	S_4	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+755	44907.0	C_1	[0 0 0 0 2 0 0 0]	[0 0 0 0 2 0 1 0]	1	0	114	S_4	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+756	44961.0	C_1	[0 0 0 0 2 0 1 0]	[0 0 0 0 2 0 1 0]	2	0	114	S_6	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+757	45012.0	C_1	[0 0 0 0 2 0 1 0]	[0 0 0 0 2 0 1 0]	3	0	114	S_6	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+758	45015.0	C_1	[0 0 0 0 2 0 1 0]	[0 0 0 0 0 0 1 0]	4	0	114	S_6	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+759	45026.0	C_1	[0 0 0 0 0 0 1 0]	[0 0 0 0 0 0 1 0]	4	2	114		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+760	45085.0	C_1	[0 0 0 0 0 0 1 0]	[1 0 0 0 0 0 1 0]	4	2	114		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+761	45134.0	C_1	[1 0 0 0 0 0 1 0]	[1 0 0 0 0 0 1 0]	5	2	114	S_0	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+762	45137.0	C_1	[1 0 0 0 0 0 1 0]	[1 0 0 0 0 0 0 0]	6	2	114	S_0	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+763	45144.0	C_1	[1 0 0 0 0 0 0 0]	[1 0 0 1 0 1 0 0]	6	3	114		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+764	45264.0	C_1	[1 0 0 1 0 1 0 0]	[1 0 0 0 0 1 0 0]	6	3	114		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+765	45395.0	C_1	[1 0 0 0 0 1 0 0]	[1 0 0 0 0 1 0 0]	7	3	114		stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+766	45398.0	C_1	[1 0 0 0 0 1 0 0]	[0 0 0 0 0 2 0 0]	0	3	114		wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+767	45408.0	C_1	[0 0 0 0 0 2 0 0]	[0 0 0 0 0 1 0 0]	0	4	114		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+768	45540.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 0 1 0 0]	0	4	114	S_5	stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+769	45543.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 0 1 0 0]	1	4	114	S_5	wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+770	45551.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 2 0 0 1 0 0]	1	2	116	S_5	move    	0.00	0.00	0	alighting           	Call received other than current stop
+771	45658.0	C_1	[0 0 2 0 0 1 0 0]	[0 0 2 0 0 1 0 0]	1	2	116	S_2	stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+772	45661.0	C_1	[0 0 2 0 0 1 0 0]	[0 0 2 0 0 1 0 0]	2	2	116	S_2	wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+773	45666.0	C_1	[0 0 2 0 0 1 0 0]	[0 0 0 0 0 1 0 0]	2	1	117	S_2	wait    	0.00	0.00	0	alighting           	there are people waiting at the current stop and can get-in
+774	45675.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 0 1 0 0]	2	3	117		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+775	45731.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 0 1 0 0]	2	3	117		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+776	45734.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 1 0 1 0 0]	3	3	117		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+777	45742.0	C_1	[0 0 0 1 0 1 0 0]	[0 0 0 0 0 1 0 0]	3	0	120		wait    	0.00	0.00	0	alighting           	there are people waiting at the current stop and can get-in
+778	45751.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 0 1 0 0]	3	1	120		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+779	45804.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 0 2 0 0]	3	1	120		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+780	45861.0	C_1	[0 0 0 0 0 2 0 0]	[0 0 0 0 0 2 0 0]	4	1	120	S_5	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+781	45864.0	C_1	[0 0 0 0 0 2 0 0]	[0 0 0 0 0 0 0 0]	5	1	120	S_5	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+782	45870.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	3	120		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+783	45921.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	3	120		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+784	46039.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	3	120		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+785	46042.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	7	3	120		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+786	46049.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	7	1	122		move    	0.00	0.00	0	alighting           	passengers are waiting in the cart
+787	46181.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	7	1	122		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+788	46184.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 1 0 0]	0	1	122		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+789	46400.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 0 1 0 0]	0	0	123	S_5	move    	0.00	0.00	0	decision_time_stopped	Call received other than current stop
+790	46532.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 0 1 0 0]	0	0	123	S_5	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+791	46638.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 0 1 0 0]	1	0	123	S_5	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+792	46692.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 0 1 0 0]	2	0	123	S_5	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+793	46743.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 0 1 0 0]	3	0	123	S_5	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+794	46800.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 0 0 1 0 0]	4	0	123	S_5	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+795	46803.0	C_1	[0 0 0 0 0 1 0 0]	[0 0 0 2 0 0 0 0]	5	0	123	S_5	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+796	46808.0	C_1	[0 0 0 2 0 0 0 0]	[0 0 0 2 0 0 0 0]	5	1	123		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+797	46859.0	C_1	[0 0 0 2 0 0 0 0]	[0 0 0 0 0 0 0 0]	5	1	123		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+798	46977.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	1	123		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+799	46980.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	7	1	123		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+800	47137.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 2 0]	7	0	124		move    	0.00	0.00	0	decision_time_stopped	Behind there is a cart
+801	47332.0	C_1	[0 0 0 0 0 0 2 0]	[0 0 0 0 0 0 2 0]	0	0	124	S_6	move    	0.00	0.00	0	decision_time_stopped	Call received other than current stop
+802	47464.0	C_1	[0 0 0 0 0 0 2 0]	[0 0 0 0 0 0 2 0]	0	0	124	S_6	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+803	47570.0	C_1	[0 0 0 0 0 0 2 0]	[0 0 0 0 0 0 2 0]	1	0	124	S_6	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+804	47624.0	C_1	[0 0 0 0 0 0 2 0]	[0 0 0 0 0 0 2 0]	2	0	124	S_0	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+805	47675.0	C_1	[0 0 0 0 0 0 2 0]	[0 0 0 0 0 0 2 0]	3	0	124	S_0	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+806	47732.0	C_1	[0 0 0 0 0 0 2 0]	[0 0 0 0 0 2 2 0]	4	0	124	S_0	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+807	47781.0	C_1	[0 0 0 0 0 2 2 0]	[0 0 0 0 0 2 2 0]	5	0	124	S_0	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+808	47784.0	C_1	[0 0 0 0 0 2 2 0]	[0 0 0 0 0 2 0 0]	6	0	124	S_0	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+809	47793.0	C_1	[0 0 0 0 0 2 0 0]	[0 0 2 0 4 2 1 3]	6	2	124		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+810	47913.0	C_1	[0 0 2 0 4 2 1 3]	[0 0 2 0 4 2 1 3]	6	2	124	S_7	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+811	47916.0	C_1	[0 0 2 0 4 2 1 3]	[0 0 2 0 4 2 1 0]	7	2	124	S_7	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+812	47924.0	C_1	[0 0 2 0 4 2 1 0]	[0 0 2 0 0 0 1 0]	7	5	124		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+813	48056.0	C_1	[0 0 2 0 0 0 1 0]	[0 0 2 0 2 0 0 0]	7	5	124	S_5	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+814	48187.0	C_1	[0 0 2 0 2 0 0 0]	[0 0 2 0 2 0 0 0]	0	5	124	S_4	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+815	48293.0	C_1	[0 0 2 0 2 0 0 0]	[0 0 2 0 2 0 0 0]	1	5	124	S_4	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+816	48296.0	C_1	[0 0 2 0 2 0 0 0]	[0 0 0 0 2 0 0 0]	2	5	124	S_4	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+817	48302.0	C_1	[0 0 0 0 2 0 0 0]	[0 0 0 0 2 0 0 0]	2	7	124		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+818	48358.0	C_1	[0 0 0 0 2 0 0 0]	[0 0 0 0 2 0 0 0]	2	7	124		continue	0.00	0.00	0	decision_time_motion	passengers are waiting in the cart, no call, no passenger at the next
+819	48409.0	C_1	[0 0 0 0 2 0 0 0]	[0 0 0 0 2 0 0 0]	3	7	124		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+820	48412.0	C_1	[0 0 0 0 2 0 0 0]	[0 0 0 0 2 0 0 0]	4	7	124		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+821	48422.0	C_1	[0 0 0 0 2 0 0 0]	[2 0 0 0 0 0 0 0]	4	4	127		wait    	0.00	0.00	0	alighting           	there are people waiting at the current stop and can get-in
+822	48430.0	C_1	[2 0 0 0 0 0 0 0]	[2 0 0 0 0 0 1 0]	4	6	127		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+823	48489.0	C_1	[2 0 0 0 0 0 1 0]	[2 0 0 0 0 0 1 0]	4	6	127	S_6	stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+824	48492.0	C_1	[2 0 0 0 0 0 1 0]	[2 0 0 0 0 0 1 0]	5	6	127	S_6	wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+825	48499.0	C_1	[2 0 0 0 0 0 1 0]	[2 0 0 0 0 0 1 0]	5	2	131	S_6	move    	0.00	0.00	0	alighting           	Call received other than current stop
+826	48550.0	C_1	[2 0 0 0 0 0 1 0]	[2 0 0 0 0 0 1 0]	5	2	131	S_6	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+827	48553.0	C_1	[2 0 0 0 0 0 1 0]	[2 0 0 0 0 0 0 0]	6	2	131	S_6	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+828	48561.0	C_1	[2 0 0 0 0 0 0 0]	[2 0 0 0 0 0 0 0]	6	3	131		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+829	48681.0	C_1	[2 0 0 0 0 0 0 0]	[2 0 0 0 0 0 0 0]	6	3	131		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+830	48684.0	C_1	[2 0 0 0 0 0 0 0]	[2 0 0 0 0 0 0 0]	7	3	131		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+831	48692.0	C_1	[2 0 0 0 0 0 0 0]	[2 0 0 0 0 0 0 0]	7	1	133		move    	0.00	0.00	0	alighting           	passengers are waiting in the cart
+832	48824.0	C_1	[2 0 0 0 0 0 0 0]	[2 0 0 0 0 0 0 0]	7	1	133		stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+833	48827.0	C_1	[2 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	0	1	133		wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+834	48834.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	0	3	133		move    	0.00	0.00	0	boarding            	passengers are waiting in the cart
+835	48966.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	0	3	133		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+836	48969.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	1	3	133		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+837	48974.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	1	2	134		move    	0.00	0.00	0	alighting           	passengers are waiting in the cart
+838	49081.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	1	2	134		stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+839	49084.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	2	134		wait    	0.00	0.00	0	car_arrival_stop    	Next bus stop is occupied or there is cart heading to next
+840	49114.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	2	134		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+841	49144.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	2	134		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+842	49174.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	2	134		move    	0.00	0.00	0	decision_time_stopped	passengers are waiting in the cart
+843	49230.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	2	2	134		stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+844	49233.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	3	2	134		wait    	0.00	0.00	0	car_arrival_stop    	Next bus stop is occupied or there is cart heading to next
+845	49263.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	3	2	134		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+846	49293.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	3	2	134		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+847	49323.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	3	2	134		move    	0.00	0.00	0	decision_time_stopped	passengers are waiting in the cart
+848	49376.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	3	2	134		stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+849	49379.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	2	134		wait    	0.00	0.00	0	car_arrival_stop    	Next bus stop is occupied or there is cart heading to next
+850	49409.0	C_1	[0 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	4	2	134		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+851	49439.0	C_1	[0 0 0 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	4	2	134		move    	0.00	0.00	0	decision_time_stopped	passengers are waiting in the cart
+852	49498.0	C_1	[1 0 0 0 0 0 0 0]	[1 0 0 0 0 0 0 0]	4	2	134		stop    	0.00	0.00	0	decision_time_motion	Next bus stop is occupied or there is cart heading to next
+853	49501.0	C_1	[1 0 0 0 0 0 0 0]	[2 0 0 0 0 0 0 0]	5	2	134		wait    	0.00	0.00	0	car_arrival_stop    	Next bus stop is occupied or there is cart heading to next
+854	49531.0	C_1	[2 0 0 0 0 0 0 0]	[2 0 0 0 0 0 0 0]	5	2	134		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+855	49561.0	C_1	[2 0 0 0 0 0 0 0]	[2 0 0 0 0 0 0 0]	5	2	134		wait    	0.00	0.00	0	decision_time_stopped	Next bus stop is occupied or there is cart heading to next
+856	49591.0	C_1	[2 0 0 0 0 0 0 0]	[2 0 0 0 0 0 0 0]	5	2	134		move    	0.00	0.00	0	decision_time_stopped	passengers are waiting in the cart
+857	49642.0	C_1	[2 0 0 0 0 0 0 0]	[2 0 0 0 0 0 0 0]	5	2	134		stop    	0.00	0.00	0	decision_time_motion	there are passengers to get-off at the next station
+858	49645.0	C_1	[2 0 0 0 0 0 0 0]	[2 0 0 0 0 0 0 0]	6	2	134		wait    	0.00	0.00	0	car_arrival_stop    	there are people in the cart getting-off
+859	49675.0	C_1	[2 0 0 0 0 0 0 0]	[2 0 0 0 0 0 0 0]	6	2	134		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+860	49705.0	C_1	[2 0 0 0 0 0 0 0]	[0 0 0 0 0 0 0 0]	6	2	134		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+861	49735.0	C_1	[0 0 0 0 0 0 0 0]	[0 1 0 0 0 0 0 0]	6	2	134		wait    	0.00	0.00	0	decision_time_stopped	there are people in the cart getting-off
+862	49923.0	C_1	[0 1 0 0 0 0 0 0]	[0 1 0 0 0 0 0 0]	6	0	136	S_1	move    	0.00	0.00	0	decision_time_stopped	Call received other than current stop
+863	50043.0	C_1	[0 1 0 0 0 0 0 0]	[0 1 0 0 0 0 0 0]	6	0	136	S_1	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+864	50174.0	C_1	[0 1 0 0 0 0 0 0]	[4 1 0 0 0 0 0 0]	7	0	136	S_1	continue	0.00	0.00	0	decision_time_motion	Call received and no get-in and get-off
+865	50305.0	C_1	[4 1 0 0 0 0 0 0]	[4 1 0 0 0 0 0 0]	0	0	136	S_1	stop    	0.00	0.00	0	decision_time_motion	There are people waiting at the next stop
+866	50308.0	C_1	[4 1 0 0 0 0 0 0]	[4 0 0 0 0 0 0 0]	1	0	136	S_1	wait    	0.00	0.00	0	car_arrival_stop    	there are people waiting at the current stop and can get-in
+867	50313.0	C_1	[4 0 0 0 0 0 0 0]	next state	1	1	136		move    	0	0	0	boarding            	passengers are waiting in the cart

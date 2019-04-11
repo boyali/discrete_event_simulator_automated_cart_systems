@@ -1,0 +1,298 @@
+../tests/logs/log_cart_C_0.txt:  07:10:07 Passenger -0 single- got-in the bus with destination to -1- at the bus stop 6
+../tests/logs/log_cart_C_0.txt:  07:12:18 Passenger -1 single- got-in the bus with destination to -2- at the bus stop 7
+../tests/logs/log_cart_C_0.txt:  07:16:49 Passenger -0 single- gets-off the cart at stop 1
+../tests/logs/log_cart_C_0.txt:  07:18:47 Passenger -1 single- gets-off the cart at stop 2
+../tests/logs/log_cart_C_0.txt:  07:30:09 Passenger -9 single- got-in the bus with destination to -2- at the bus stop 5
+../tests/logs/log_cart_C_0.txt:  07:33:11 Passenger -10 couple- got-in the bus with destination to -0- at the bus stop 7
+../tests/logs/log_cart_C_0.txt:  07:33:11 Passenger -11 couple- got-in the bus with destination to -0- at the bus stop 7
+../tests/logs/log_cart_C_0.txt:  07:35:33 Passenger -10 couple- gets-off the cart at stop 0
+../tests/logs/log_cart_C_0.txt:  07:35:33 Passenger -11 couple- gets-off the cart at stop 0
+../tests/logs/log_cart_C_0.txt:  07:39:43 Passenger -9 single- gets-off the cart at stop 2
+../tests/logs/log_cart_C_0.txt:  07:41:39 Passenger -16 single- got-in the bus with destination to -5- at the bus stop 4
+../tests/logs/log_cart_C_0.txt:  07:42:47 Passenger -16 single- gets-off the cart at stop 5
+../tests/logs/log_cart_C_0.txt:  07:59:29 Passenger -22 couple- got-in the bus with destination to -5- at the bus stop 2
+../tests/logs/log_cart_C_0.txt:  07:59:29 Passenger -23 couple- got-in the bus with destination to -5- at the bus stop 2
+../tests/logs/log_cart_C_0.txt:  07:59:29 Passenger -26 couple- got-in the bus with destination to -0- at the bus stop 2
+../tests/logs/log_cart_C_0.txt:  07:59:29 Passenger -27 couple- got-in the bus with destination to -0- at the bus stop 2
+../tests/logs/log_cart_C_0.txt:  08:00:38 Passenger -24 single- got-in the bus with destination to -4- at the bus stop 3
+../tests/logs/log_cart_C_0.txt:  08:00:38 Passenger -25 single- got-in the bus with destination to -1- at the bus stop 3
+../tests/logs/log_cart_C_0.txt:  08:01:41 Passenger -24 single- gets-off the cart at stop 4
+../tests/logs/log_cart_C_0.txt:  08:02:49 Passenger -22 couple- gets-off the cart at stop 5
+../tests/logs/log_cart_C_0.txt:  08:02:49 Passenger -23 couple- gets-off the cart at stop 5
+../tests/logs/log_cart_C_0.txt:  08:10:35 Passenger -26 couple- gets-off the cart at stop 0
+../tests/logs/log_cart_C_0.txt:  08:10:35 Passenger -27 couple- gets-off the cart at stop 0
+../tests/logs/log_cart_C_0.txt:  08:12:59 Passenger -25 single- gets-off the cart at stop 1
+../tests/logs/log_cart_C_0.txt:  08:43:25 Passenger -35 single- got-in the bus with destination to -0- at the bus stop 3
+../tests/logs/log_cart_C_0.txt:  08:53:54 Passenger -35 single- gets-off the cart at stop 0
+../tests/logs/log_cart_C_0.txt:  09:05:36 Passenger -37 triple- got-in the bus with destination to -7- at the bus stop 6
+../tests/logs/log_cart_C_0.txt:  09:05:36 Passenger -38 triple- got-in the bus with destination to -7- at the bus stop 6
+../tests/logs/log_cart_C_0.txt:  09:05:36 Passenger -39 triple- got-in the bus with destination to -7- at the bus stop 6
+../tests/logs/log_cart_C_0.txt:  09:09:21 Passenger -37 triple- gets-off the cart at stop 7
+../tests/logs/log_cart_C_0.txt:  09:09:21 Passenger -38 triple- gets-off the cart at stop 7
+../tests/logs/log_cart_C_0.txt:  09:09:21 Passenger -39 triple- gets-off the cart at stop 7
+../tests/logs/log_cart_C_0.txt:  09:25:43 Passenger -44 couple- got-in the bus with destination to -6- at the bus stop 0
+../tests/logs/log_cart_C_0.txt:  09:25:43 Passenger -45 couple- got-in the bus with destination to -6- at the bus stop 0
+../tests/logs/log_cart_C_0.txt:  09:30:47 Passenger -48 single- got-in the bus with destination to -7- at the bus stop 3
+../tests/logs/log_cart_C_0.txt:  09:32:46 Passenger -49 single- got-in the bus with destination to -7- at the bus stop 5
+../tests/logs/log_cart_C_0.txt:  09:34:47 Passenger -44 couple- gets-off the cart at stop 6
+../tests/logs/log_cart_C_0.txt:  09:34:47 Passenger -45 couple- gets-off the cart at stop 6
+../tests/logs/log_cart_C_0.txt:  09:36:58 Passenger -48 single- gets-off the cart at stop 7
+../tests/logs/log_cart_C_0.txt:  09:36:58 Passenger -49 single- gets-off the cart at stop 7
+../tests/logs/log_cart_C_0.txt:  09:46:45 Passenger -53 single- got-in the bus with destination to -5- at the bus stop 2
+../tests/logs/log_cart_C_0.txt:  09:49:40 Passenger -53 single- gets-off the cart at stop 5
+../tests/logs/log_cart_C_0.txt:  10:04:39 Passenger -60 couple- got-in the bus with destination to -4- at the bus stop 1
+../tests/logs/log_cart_C_0.txt:  10:04:39 Passenger -61 couple- got-in the bus with destination to -4- at the bus stop 1
+../tests/logs/log_cart_C_0.txt:  10:08:22 Passenger -60 couple- gets-off the cart at stop 4
+../tests/logs/log_cart_C_0.txt:  10:08:22 Passenger -61 couple- gets-off the cart at stop 4
+../tests/logs/log_cart_C_0.txt:  10:12:33 Passenger -62 single- got-in the bus with destination to -0- at the bus stop 4
+../tests/logs/log_cart_C_0.txt:  10:18:42 Passenger -62 single- gets-off the cart at stop 0
+../tests/logs/log_cart_C_0.txt:  10:24:04 Passenger -63 single- got-in the bus with destination to -0- at the bus stop 1
+../tests/logs/log_cart_C_0.txt:  10:27:50 Passenger -65 single- got-in the bus with destination to -5- at the bus stop 4
+../tests/logs/log_cart_C_0.txt:  10:28:57 Passenger -65 single- gets-off the cart at stop 5
+../tests/logs/log_cart_C_0.txt:  10:34:09 Passenger -63 single- gets-off the cart at stop 0
+../tests/logs/log_cart_C_0.txt:  10:43:45 Passenger -66 couple- got-in the bus with destination to -6- at the bus stop 3
+../tests/logs/log_cart_C_0.txt:  10:43:45 Passenger -67 couple- got-in the bus with destination to -6- at the bus stop 3
+../tests/logs/log_cart_C_0.txt:  10:49:10 Passenger -66 couple- gets-off the cart at stop 6
+../tests/logs/log_cart_C_0.txt:  10:49:10 Passenger -67 couple- gets-off the cart at stop 6
+../tests/logs/log_cart_C_0.txt:  11:06:00 Passenger -70 single- got-in the bus with destination to -5- at the bus stop 2
+../tests/logs/log_cart_C_0.txt:  11:08:53 Passenger -70 single- gets-off the cart at stop 5
+../tests/logs/log_cart_C_0.txt:  11:23:39 Passenger -72 single- got-in the bus with destination to -4- at the bus stop 2
+../tests/logs/log_cart_C_0.txt:  11:23:39 Passenger -74 single- got-in the bus with destination to -7- at the bus stop 2
+../tests/logs/log_cart_C_0.txt:  11:25:34 Passenger -72 single- gets-off the cart at stop 4
+../tests/logs/log_cart_C_0.txt:  11:29:29 Passenger -74 single- gets-off the cart at stop 7
+../tests/logs/log_cart_C_0.txt:  11:31:50 Passenger -75 single- got-in the bus with destination to -1- at the bus stop 0
+../tests/logs/log_cart_C_0.txt:  11:31:50 Passenger -76 couple- got-in the bus with destination to -3- at the bus stop 0
+../tests/logs/log_cart_C_0.txt:  11:31:50 Passenger -77 couple- got-in the bus with destination to -3- at the bus stop 0
+../tests/logs/log_cart_C_0.txt:  11:34:12 Passenger -75 single- gets-off the cart at stop 1
+../tests/logs/log_cart_C_0.txt:  11:37:03 Passenger -76 couple- gets-off the cart at stop 3
+../tests/logs/log_cart_C_0.txt:  11:37:03 Passenger -77 couple- gets-off the cart at stop 3
+../tests/logs/log_cart_C_0.txt:  11:44:35 Passenger -79 single- got-in the bus with destination to -1- at the bus stop 4
+../tests/logs/log_cart_C_0.txt:  11:52:57 Passenger -79 single- gets-off the cart at stop 1
+../tests/logs/log_cart_C_0.txt:  11:53:06 Passenger -80 couple- got-in the bus with destination to -0- at the bus stop 1
+../tests/logs/log_cart_C_0.txt:  11:53:06 Passenger -81 couple- got-in the bus with destination to -0- at the bus stop 1
+../tests/logs/log_cart_C_0.txt:  11:56:46 Passenger -82 single- got-in the bus with destination to -0- at the bus stop 4
+../tests/logs/log_cart_C_0.txt:  11:57:58 Passenger -83 single- got-in the bus with destination to -3- at the bus stop 5
+../tests/logs/log_cart_C_0.txt:  12:03:12 Passenger -80 couple- gets-off the cart at stop 0
+../tests/logs/log_cart_C_0.txt:  12:03:12 Passenger -81 couple- gets-off the cart at stop 0
+../tests/logs/log_cart_C_0.txt:  12:03:12 Passenger -82 single- gets-off the cart at stop 0
+../tests/logs/log_cart_C_0.txt:  12:03:18 Passenger -84 single- got-in the bus with destination to -2- at the bus stop 0
+../tests/logs/log_cart_C_0.txt:  12:07:30 Passenger -84 single- gets-off the cart at stop 2
+../tests/logs/log_cart_C_0.txt:  12:08:38 Passenger -83 single- gets-off the cart at stop 3
+../tests/logs/log_cart_C_0.txt:  12:19:04 Passenger -88 single- got-in the bus with destination to -2- at the bus stop 0
+../tests/logs/log_cart_C_0.txt:  12:21:29 Passenger -86 couple- got-in the bus with destination to -2- at the bus stop 1
+../tests/logs/log_cart_C_0.txt:  12:21:29 Passenger -87 couple- got-in the bus with destination to -2- at the bus stop 1
+../tests/logs/log_cart_C_0.txt:  12:23:28 Passenger -88 single- gets-off the cart at stop 2
+../tests/logs/log_cart_C_0.txt:  12:23:28 Passenger -86 couple- gets-off the cart at stop 2
+../tests/logs/log_cart_C_0.txt:  12:23:28 Passenger -87 couple- gets-off the cart at stop 2
+../tests/logs/log_cart_C_0.txt:  12:27:32 Passenger -89 single- got-in the bus with destination to -4- at the bus stop 3
+../tests/logs/log_cart_C_0.txt:  12:28:36 Passenger -89 single- gets-off the cart at stop 4
+../tests/logs/log_cart_C_0.txt:  12:49:38 Passenger -93 single- got-in the bus with destination to -4- at the bus stop 6
+../tests/logs/log_cart_C_0.txt:  12:49:38 Passenger -96 single- got-in the bus with destination to -7- at the bus stop 6
+../tests/logs/log_cart_C_0.txt:  12:51:47 Passenger -96 single- gets-off the cart at stop 7
+../tests/logs/log_cart_C_0.txt:  12:54:08 Passenger -97 single- got-in the bus with destination to -4- at the bus stop 0
+../tests/logs/log_cart_C_0.txt:  12:58:20 Passenger -94 couple- got-in the bus with destination to -1- at the bus stop 2
+../tests/logs/log_cart_C_0.txt:  12:58:20 Passenger -95 couple- got-in the bus with destination to -1- at the bus stop 2
+../tests/logs/log_cart_C_0.txt:  12:59:25 Passenger -98 single- got-in the bus with destination to -6- at the bus stop 3
+../tests/logs/log_cart_C_0.txt:  13:00:31 Passenger -93 single- gets-off the cart at stop 4
+../tests/logs/log_cart_C_0.txt:  13:00:31 Passenger -97 single- gets-off the cart at stop 4
+../tests/logs/log_cart_C_0.txt:  13:02:30 Passenger -98 single- gets-off the cart at stop 6
+../tests/logs/log_cart_C_0.txt:  13:02:40 Passenger -99 single- got-in the bus with destination to -1- at the bus stop 6
+../tests/logs/log_cart_C_0.txt:  13:13:17 Passenger -94 couple- gets-off the cart at stop 1
+../tests/logs/log_cart_C_0.txt:  13:13:17 Passenger -95 couple- gets-off the cart at stop 1
+../tests/logs/log_cart_C_0.txt:  13:13:17 Passenger -99 single- gets-off the cart at stop 1
+../tests/logs/log_cart_C_0.txt:  13:21:02 Passenger -101 single- got-in the bus with destination to -7- at the bus stop 4
+../tests/logs/log_cart_C_0.txt:  13:25:33 Passenger -101 single- gets-off the cart at stop 7
+../tests/logs/log_cart_C_0.txt:  13:37:53 Passenger -104 couple- got-in the bus with destination to -4- at the bus stop 2
+../tests/logs/log_cart_C_0.txt:  13:37:53 Passenger -105 couple- got-in the bus with destination to -4- at the bus stop 2
+../tests/logs/log_cart_C_0.txt:  13:37:53 Passenger -106 single- got-in the bus with destination to -1- at the bus stop 2
+../tests/logs/log_cart_C_0.txt:  13:39:03 Passenger -109 single- got-in the bus with destination to -4- at the bus stop 3
+../tests/logs/log_cart_C_0.txt:  13:39:03 Passenger -110 couple- got-in the bus with destination to -2- at the bus stop 3
+../tests/logs/log_cart_C_0.txt:  13:39:03 Passenger -111 couple- got-in the bus with destination to -2- at the bus stop 3
+../tests/logs/log_cart_C_0.txt:  13:40:09 Passenger -104 couple- gets-off the cart at stop 4
+../tests/logs/log_cart_C_0.txt:  13:40:09 Passenger -105 couple- gets-off the cart at stop 4
+../tests/logs/log_cart_C_0.txt:  13:40:09 Passenger -109 single- gets-off the cart at stop 4
+../tests/logs/log_cart_C_0.txt:  13:41:19 Passenger -107 couple- got-in the bus with destination to -2- at the bus stop 5
+../tests/logs/log_cart_C_0.txt:  13:41:19 Passenger -108 couple- got-in the bus with destination to -2- at the bus stop 5
+../tests/logs/log_cart_C_0.txt:  13:52:49 Passenger -106 single- gets-off the cart at stop 1
+../tests/logs/log_cart_C_0.txt:  13:54:50 Passenger -110 couple- gets-off the cart at stop 2
+../tests/logs/log_cart_C_0.txt:  13:54:50 Passenger -111 couple- gets-off the cart at stop 2
+../tests/logs/log_cart_C_0.txt:  13:54:50 Passenger -107 couple- gets-off the cart at stop 2
+../tests/logs/log_cart_C_0.txt:  13:54:50 Passenger -108 couple- gets-off the cart at stop 2
+../tests/logs/log_cart_C_0.txt:  13:54:56 Passenger -117 single- got-in the bus with destination to -5- at the bus stop 2
+../tests/logs/log_cart_C_0.txt:  13:56:55 Passenger -116 single- got-in the bus with destination to -0- at the bus stop 4
+../tests/logs/log_cart_C_0.txt:  13:58:05 Passenger -117 single- gets-off the cart at stop 5
+../tests/logs/log_cart_C_0.txt:  14:04:48 Passenger -116 single- gets-off the cart at stop 0
+../tests/logs/log_cart_C_0.txt:  14:16:01 Passenger -125 single- got-in the bus with destination to -6- at the bus stop 2
+../tests/logs/log_cart_C_0.txt:  14:19:46 Passenger -125 single- gets-off the cart at stop 6
+../tests/logs/log_cart_C_0.txt:  14:19:55 Passenger -126 couple- got-in the bus with destination to -0- at the bus stop 6
+../tests/logs/log_cart_C_0.txt:  14:19:55 Passenger -127 couple- got-in the bus with destination to -0- at the bus stop 6
+../tests/logs/log_cart_C_0.txt:  14:24:15 Passenger -126 couple- gets-off the cart at stop 0
+../tests/logs/log_cart_C_0.txt:  14:24:15 Passenger -127 couple- gets-off the cart at stop 0
+../tests/logs/log_cart_C_0.txt:  14:28:11 Passenger -128 single- got-in the bus with destination to -0- at the bus stop 1
+../tests/logs/log_cart_C_0.txt:  14:31:41 Passenger -129 couple- got-in the bus with destination to -0- at the bus stop 2
+../tests/logs/log_cart_C_0.txt:  14:31:41 Passenger -130 couple- got-in the bus with destination to -0- at the bus stop 2
+../tests/logs/log_cart_C_0.txt:  14:31:41 Passenger -132 single- got-in the bus with destination to -1- at the bus stop 2
+../tests/logs/log_cart_C_0.txt:  14:41:44 Passenger -128 single- gets-off the cart at stop 0
+../tests/logs/log_cart_C_0.txt:  14:41:44 Passenger -129 couple- gets-off the cart at stop 0
+../tests/logs/log_cart_C_0.txt:  14:41:44 Passenger -130 couple- gets-off the cart at stop 0
+../tests/logs/log_cart_C_0.txt:  14:44:06 Passenger -132 single- gets-off the cart at stop 1
+../tests/logs/log_cart_C_0.txt:  14:51:43 Passenger -134 single- got-in the bus with destination to -7- at the bus stop 1
+../tests/logs/log_cart_C_0.txt:  14:59:11 Passenger -134 single- gets-off the cart at stop 7
+../tests/logs/log_cart_C_0.txt:  15:02:17 Passenger -139 couple- got-in the bus with destination to -2- at the bus stop 7
+../tests/logs/log_cart_C_0.txt:  15:02:17 Passenger -140 couple- got-in the bus with destination to -2- at the bus stop 7
+../tests/logs/log_cart_C_0.txt:  15:08:34 Passenger -139 couple- gets-off the cart at stop 2
+../tests/logs/log_cart_C_0.txt:  15:08:34 Passenger -140 couple- gets-off the cart at stop 2
+../tests/logs/log_cart_C_0.txt:  15:20:34 Passenger -145 single- got-in the bus with destination to -1- at the bus stop 0
+../tests/logs/log_cart_C_0.txt:  15:22:56 Passenger -145 single- gets-off the cart at stop 1
+../tests/logs/log_cart_C_0.txt:  15:25:49 Passenger -151 triple- got-in the bus with destination to -6- at the bus stop 3
+../tests/logs/log_cart_C_0.txt:  15:25:49 Passenger -152 triple- got-in the bus with destination to -6- at the bus stop 3
+../tests/logs/log_cart_C_0.txt:  15:25:49 Passenger -153 triple- got-in the bus with destination to -6- at the bus stop 3
+../tests/logs/log_cart_C_0.txt:  15:25:49 Passenger -154 single- got-in the bus with destination to -6- at the bus stop 3
+../tests/logs/log_cart_C_0.txt:  15:27:53 Passenger -147 single- got-in the bus with destination to -2- at the bus stop 5
+../tests/logs/log_cart_C_0.txt:  15:28:57 Passenger -151 triple- gets-off the cart at stop 6
+../tests/logs/log_cart_C_0.txt:  15:28:57 Passenger -152 triple- gets-off the cart at stop 6
+../tests/logs/log_cart_C_0.txt:  15:28:57 Passenger -153 triple- gets-off the cart at stop 6
+../tests/logs/log_cart_C_0.txt:  15:28:57 Passenger -154 single- gets-off the cart at stop 6
+../tests/logs/log_cart_C_0.txt:  15:37:15 Passenger -147 single- gets-off the cart at stop 2
+../tests/logs/log_cart_C_0.txt:  15:46:01 Passenger -157 couple- got-in the bus with destination to -0- at the bus stop 6
+../tests/logs/log_cart_C_0.txt:  15:46:01 Passenger -158 couple- got-in the bus with destination to -0- at the bus stop 6
+../tests/logs/log_cart_C_0.txt:  15:48:09 Passenger -172 couple- got-in the bus with destination to -2- at the bus stop 7
+../tests/logs/log_cart_C_0.txt:  15:48:09 Passenger -173 couple- got-in the bus with destination to -2- at the bus stop 7
+../tests/logs/log_cart_C_0.txt:  15:50:30 Passenger -157 couple- gets-off the cart at stop 0
+../tests/logs/log_cart_C_0.txt:  15:50:30 Passenger -158 couple- gets-off the cart at stop 0
+../tests/logs/log_cart_C_0.txt:  15:50:40 Passenger -159 single- got-in the bus with destination to -6- at the bus stop 0
+../tests/logs/log_cart_C_0.txt:  15:54:47 Passenger -172 couple- gets-off the cart at stop 2
+../tests/logs/log_cart_C_0.txt:  15:54:47 Passenger -173 couple- gets-off the cart at stop 2
+../tests/logs/log_cart_C_0.txt:  15:54:54 Passenger -174 single- got-in the bus with destination to -5- at the bus stop 2
+../tests/logs/log_cart_C_0.txt:  15:56:50 Passenger -178 single- got-in the bus with destination to -7- at the bus stop 4
+../tests/logs/log_cart_C_0.txt:  15:58:01 Passenger -174 single- gets-off the cart at stop 5
+../tests/logs/log_cart_C_0.txt:  15:58:13 Passenger -181 single- got-in the bus with destination to -3- at the bus stop 5
+../tests/logs/log_cart_C_0.txt:  15:59:16 Passenger -159 single- gets-off the cart at stop 6
+../tests/logs/log_cart_C_0.txt:  15:59:24 Passenger -176 couple- got-in the bus with destination to -2- at the bus stop 6
+../tests/logs/log_cart_C_0.txt:  15:59:24 Passenger -177 couple- got-in the bus with destination to -2- at the bus stop 6
+../tests/logs/log_cart_C_0.txt:  15:59:24 Passenger -182 single- got-in the bus with destination to -2- at the bus stop 6
+../tests/logs/log_cart_C_0.txt:  16:01:36 Passenger -178 single- gets-off the cart at stop 7
+../tests/logs/log_cart_C_0.txt:  16:01:47 Passenger -179 couple- got-in the bus with destination to -1- at the bus stop 7
+../tests/logs/log_cart_C_0.txt:  16:01:47 Passenger -180 couple- got-in the bus with destination to -1- at the bus stop 7
+../tests/logs/log_cart_C_0.txt:  16:04:09 Passenger -185 single- got-in the bus with destination to -7- at the bus stop 0
+../tests/logs/log_cart_C_0.txt:  16:06:32 Passenger -179 couple- gets-off the cart at stop 1
+../tests/logs/log_cart_C_0.txt:  16:06:32 Passenger -180 couple- gets-off the cart at stop 1
+../tests/logs/log_cart_C_0.txt:  16:08:31 Passenger -176 couple- gets-off the cart at stop 2
+../tests/logs/log_cart_C_0.txt:  16:08:31 Passenger -177 couple- gets-off the cart at stop 2
+../tests/logs/log_cart_C_0.txt:  16:08:31 Passenger -182 single- gets-off the cart at stop 2
+../tests/logs/log_cart_C_0.txt:  16:08:40 Passenger -183 single- got-in the bus with destination to -0- at the bus stop 2
+../tests/logs/log_cart_C_0.txt:  16:09:46 Passenger -181 single- gets-off the cart at stop 3
+../tests/logs/log_cart_C_0.txt:  16:11:47 Passenger -186 family- got-in the bus with destination to -1- at the bus stop 5
+../tests/logs/log_cart_C_0.txt:  16:11:47 Passenger -187 family- got-in the bus with destination to -1- at the bus stop 5
+../tests/logs/log_cart_C_0.txt:  16:11:47 Passenger -188 family- got-in the bus with destination to -1- at the bus stop 5
+../tests/logs/log_cart_C_0.txt:  16:11:47 Passenger -189 family- got-in the bus with destination to -1- at the bus stop 5
+../tests/logs/log_cart_C_0.txt:  16:23:49 Passenger -185 single- gets-off the cart at stop 7
+../tests/logs/log_cart_C_0.txt:  16:23:55 Passenger -190 single- got-in the bus with destination to -2- at the bus stop 7
+../tests/logs/log_cart_C_0.txt:  16:26:17 Passenger -183 single- gets-off the cart at stop 0
+../tests/logs/log_cart_C_0.txt:  16:28:41 Passenger -186 family- gets-off the cart at stop 1
+../tests/logs/log_cart_C_0.txt:  16:28:41 Passenger -187 family- gets-off the cart at stop 1
+../tests/logs/log_cart_C_0.txt:  16:28:41 Passenger -188 family- gets-off the cart at stop 1
+../tests/logs/log_cart_C_0.txt:  16:28:41 Passenger -189 family- gets-off the cart at stop 1
+../tests/logs/log_cart_C_0.txt:  16:30:39 Passenger -190 single- gets-off the cart at stop 2
+../tests/logs/log_cart_C_0.txt:  17:06:55 Passenger -197 single- got-in the bus with destination to -3- at the bus stop 2
+../tests/logs/log_cart_C_0.txt:  17:08:00 Passenger -197 single- gets-off the cart at stop 3
+../tests/logs/log_cart_C_0.txt:  17:19:28 Passenger -200 single- got-in the bus with destination to -4- at the bus stop 5
+../tests/logs/log_cart_C_0.txt:  17:23:31 Passenger -195 couple- got-in the bus with destination to -1- at the bus stop 6
+../tests/logs/log_cart_C_0.txt:  17:23:31 Passenger -196 couple- got-in the bus with destination to -1- at the bus stop 6
+../tests/logs/log_cart_C_0.txt:  17:23:31 Passenger -198 single- got-in the bus with destination to -1- at the bus stop 6
+../tests/logs/log_cart_C_0.txt:  17:23:31 Passenger -199 single- got-in the bus with destination to -7- at the bus stop 6
+../tests/logs/log_cart_C_0.txt:  17:23:31 Passenger -201 single- got-in the bus with destination to -4- at the bus stop 6
+../tests/logs/log_cart_C_0.txt:  17:25:40 Passenger -199 single- gets-off the cart at stop 7
+../tests/logs/log_cart_C_0.txt:  17:30:14 Passenger -195 couple- gets-off the cart at stop 1
+../tests/logs/log_cart_C_0.txt:  17:30:14 Passenger -196 couple- gets-off the cart at stop 1
+../tests/logs/log_cart_C_0.txt:  17:30:14 Passenger -198 single- gets-off the cart at stop 1
+../tests/logs/log_cart_C_0.txt:  17:33:57 Passenger -200 single- gets-off the cart at stop 4
+../tests/logs/log_cart_C_0.txt:  17:33:57 Passenger -201 single- gets-off the cart at stop 4
+../tests/logs/log_cart_C_0.txt:  17:38:26 Passenger -205 single- got-in the bus with destination to -7- at the bus stop 6
+../tests/logs/log_cart_C_0.txt:  17:38:26 Passenger -206 single- got-in the bus with destination to -4- at the bus stop 6
+../tests/logs/log_cart_C_0.txt:  17:40:34 Passenger -205 single- gets-off the cart at stop 7
+../tests/logs/log_cart_C_0.txt:  17:48:38 Passenger -206 single- gets-off the cart at stop 4
+../tests/logs/log_cart_C_0.txt:  18:12:55 Passenger -209 family- got-in the bus with destination to -4- at the bus stop 2
+../tests/logs/log_cart_C_0.txt:  18:12:55 Passenger -210 family- got-in the bus with destination to -4- at the bus stop 2
+../tests/logs/log_cart_C_0.txt:  18:12:55 Passenger -211 family- got-in the bus with destination to -4- at the bus stop 2
+../tests/logs/log_cart_C_0.txt:  18:12:55 Passenger -212 family- got-in the bus with destination to -4- at the bus stop 2
+../tests/logs/log_cart_C_0.txt:  18:14:53 Passenger -209 family- gets-off the cart at stop 4
+../tests/logs/log_cart_C_0.txt:  18:14:53 Passenger -210 family- gets-off the cart at stop 4
+../tests/logs/log_cart_C_0.txt:  18:14:53 Passenger -211 family- gets-off the cart at stop 4
+../tests/logs/log_cart_C_0.txt:  18:14:53 Passenger -212 family- gets-off the cart at stop 4
+../tests/logs/log_cart_C_0.txt:  18:18:29 Passenger -214 single- got-in the bus with destination to -2- at the bus stop 6
+../tests/logs/log_cart_C_0.txt:  18:26:49 Passenger -214 single- gets-off the cart at stop 2
+../tests/logs/log_cart_C_0.txt:  18:29:47 Passenger -220 couple- got-in the bus with destination to -0- at the bus stop 5
+../tests/logs/log_cart_C_0.txt:  18:29:47 Passenger -221 couple- got-in the bus with destination to -0- at the bus stop 5
+../tests/logs/log_cart_C_0.txt:  18:35:33 Passenger -220 couple- gets-off the cart at stop 0
+../tests/logs/log_cart_C_0.txt:  18:35:33 Passenger -221 couple- gets-off the cart at stop 0
+../tests/logs/log_cart_C_0.txt:  18:45:05 Passenger -228 couple- got-in the bus with destination to -4- at the bus stop 3
+../tests/logs/log_cart_C_0.txt:  18:45:05 Passenger -229 couple- got-in the bus with destination to -4- at the bus stop 3
+../tests/logs/log_cart_C_0.txt:  18:46:09 Passenger -228 couple- gets-off the cart at stop 4
+../tests/logs/log_cart_C_0.txt:  18:46:09 Passenger -229 couple- gets-off the cart at stop 4
+../tests/logs/log_cart_C_0.txt:  18:46:20 Passenger -226 single- got-in the bus with destination to -0- at the bus stop 4
+../tests/logs/log_cart_C_0.txt:  18:46:20 Passenger -227 single- got-in the bus with destination to -6- at the bus stop 4
+../tests/logs/log_cart_C_0.txt:  18:46:20 Passenger -230 single- got-in the bus with destination to -6- at the bus stop 4
+../tests/logs/log_cart_C_0.txt:  18:47:28 Passenger -231 single- got-in the bus with destination to -4- at the bus stop 5
+../tests/logs/log_cart_C_0.txt:  18:48:32 Passenger -227 single- gets-off the cart at stop 6
+../tests/logs/log_cart_C_0.txt:  18:48:32 Passenger -230 single- gets-off the cart at stop 6
+../tests/logs/log_cart_C_0.txt:  18:52:54 Passenger -226 single- gets-off the cart at stop 0
+../tests/logs/log_cart_C_0.txt:  18:58:46 Passenger -231 single- gets-off the cart at stop 4
+../tests/logs/log_cart_C_0.txt:  19:18:43 Passenger -235 family- got-in the bus with destination to -3- at the bus stop 5
+../tests/logs/log_cart_C_0.txt:  19:18:43 Passenger -236 family- got-in the bus with destination to -3- at the bus stop 5
+../tests/logs/log_cart_C_0.txt:  19:18:43 Passenger -237 family- got-in the bus with destination to -3- at the bus stop 5
+../tests/logs/log_cart_C_0.txt:  19:18:43 Passenger -238 family- got-in the bus with destination to -3- at the bus stop 5
+../tests/logs/log_cart_C_0.txt:  19:18:43 Passenger -239 single- got-in the bus with destination to -3- at the bus stop 5
+../tests/logs/log_cart_C_0.txt:  19:18:43 Passenger -242 single- got-in the bus with destination to -1- at the bus stop 5
+../tests/logs/log_cart_C_0.txt:  19:27:12 Passenger -240 couple- got-in the bus with destination to -5- at the bus stop 7
+../tests/logs/log_cart_C_0.txt:  19:27:12 Passenger -241 couple- got-in the bus with destination to -5- at the bus stop 7
+../tests/logs/log_cart_C_0.txt:  19:31:44 Passenger -242 single- gets-off the cart at stop 1
+../tests/logs/log_cart_C_0.txt:  19:34:36 Passenger -235 family- gets-off the cart at stop 3
+../tests/logs/log_cart_C_0.txt:  19:34:36 Passenger -236 family- gets-off the cart at stop 3
+../tests/logs/log_cart_C_0.txt:  19:34:36 Passenger -237 family- gets-off the cart at stop 3
+../tests/logs/log_cart_C_0.txt:  19:34:36 Passenger -238 family- gets-off the cart at stop 3
+../tests/logs/log_cart_C_0.txt:  19:34:36 Passenger -239 single- gets-off the cart at stop 3
+../tests/logs/log_cart_C_0.txt:  19:34:45 Passenger -248 single- got-in the bus with destination to -6- at the bus stop 3
+../tests/logs/log_cart_C_0.txt:  19:36:45 Passenger -240 couple- gets-off the cart at stop 5
+../tests/logs/log_cart_C_0.txt:  19:36:45 Passenger -241 couple- gets-off the cart at stop 5
+../tests/logs/log_cart_C_0.txt:  19:36:52 Passenger -247 single- got-in the bus with destination to -4- at the bus stop 5
+../tests/logs/log_cart_C_0.txt:  19:36:52 Passenger -249 single- got-in the bus with destination to -0- at the bus stop 5
+../tests/logs/log_cart_C_0.txt:  19:37:54 Passenger -248 single- gets-off the cart at stop 6
+../tests/logs/log_cart_C_0.txt:  19:42:15 Passenger -249 single- gets-off the cart at stop 0
+../tests/logs/log_cart_C_0.txt:  19:48:08 Passenger -247 single- gets-off the cart at stop 4
+../tests/logs/log_cart_C_0.txt:  20:02:43 Passenger -256 couple- got-in the bus with destination to -2- at the bus stop 3
+../tests/logs/log_cart_C_0.txt:  20:02:43 Passenger -257 couple- got-in the bus with destination to -2- at the bus stop 3
+../tests/logs/log_cart_C_0.txt:  20:13:19 Passenger -260 couple- got-in the bus with destination to -4- at the bus stop 0
+../tests/logs/log_cart_C_0.txt:  20:13:19 Passenger -261 couple- got-in the bus with destination to -4- at the bus stop 0
+../tests/logs/log_cart_C_0.txt:  20:17:26 Passenger -256 couple- gets-off the cart at stop 2
+../tests/logs/log_cart_C_0.txt:  20:17:26 Passenger -257 couple- gets-off the cart at stop 2
+../tests/logs/log_cart_C_0.txt:  20:19:23 Passenger -260 couple- gets-off the cart at stop 4
+../tests/logs/log_cart_C_0.txt:  20:19:23 Passenger -261 couple- gets-off the cart at stop 4
+../tests/logs/log_cart_C_0.txt:  20:19:32 Passenger -265 family- got-in the bus with destination to -0- at the bus stop 4
+../tests/logs/log_cart_C_0.txt:  20:19:32 Passenger -266 family- got-in the bus with destination to -0- at the bus stop 4
+../tests/logs/log_cart_C_0.txt:  20:19:32 Passenger -267 family- got-in the bus with destination to -0- at the bus stop 4
+../tests/logs/log_cart_C_0.txt:  20:19:32 Passenger -268 family- got-in the bus with destination to -0- at the bus stop 4
+../tests/logs/log_cart_C_0.txt:  20:20:40 Passenger -262 couple- got-in the bus with destination to -7- at the bus stop 5
+../tests/logs/log_cart_C_0.txt:  20:20:40 Passenger -263 couple- got-in the bus with destination to -7- at the bus stop 5
+../tests/logs/log_cart_C_0.txt:  20:20:40 Passenger -274 single- got-in the bus with destination to -2- at the bus stop 5
+../tests/logs/log_cart_C_0.txt:  20:21:43 Passenger -264 single- got-in the bus with destination to -3- at the bus stop 6
+../tests/logs/log_cart_C_0.txt:  20:23:54 Passenger -262 couple- gets-off the cart at stop 7
+../tests/logs/log_cart_C_0.txt:  20:23:54 Passenger -263 couple- gets-off the cart at stop 7
+../tests/logs/log_cart_C_0.txt:  20:26:20 Passenger -265 family- gets-off the cart at stop 0
+../tests/logs/log_cart_C_0.txt:  20:26:20 Passenger -266 family- gets-off the cart at stop 0
+../tests/logs/log_cart_C_0.txt:  20:26:20 Passenger -267 family- gets-off the cart at stop 0
+../tests/logs/log_cart_C_0.txt:  20:26:20 Passenger -268 family- gets-off the cart at stop 0
+../tests/logs/log_cart_C_0.txt:  20:30:27 Passenger -274 single- gets-off the cart at stop 2
+../tests/logs/log_cart_C_0.txt:  20:31:34 Passenger -264 single- gets-off the cart at stop 3
+../tests/logs/log_cart_C_0.txt:  20:48:49 Passenger -280 single- got-in the bus with destination to -3- at the bus stop 0
+../tests/logs/log_cart_C_0.txt:  20:48:49 Passenger -281 single- got-in the bus with destination to -2- at the bus stop 0
+../tests/logs/log_cart_C_0.txt:  20:51:12 Passenger -282 couple- got-in the bus with destination to -7- at the bus stop 1
+../tests/logs/log_cart_C_0.txt:  20:51:12 Passenger -283 couple- got-in the bus with destination to -7- at the bus stop 1
+../tests/logs/log_cart_C_0.txt:  20:53:14 Passenger -281 single- gets-off the cart at stop 2
+../tests/logs/log_cart_C_0.txt:  20:54:18 Passenger -280 single- gets-off the cart at stop 3
+../tests/logs/log_cart_C_0.txt:  20:59:08 Passenger -282 couple- gets-off the cart at stop 7
+../tests/logs/log_cart_C_0.txt:  20:59:08 Passenger -283 couple- gets-off the cart at stop 7
+../tests/logs/log_cart_C_0.txt:  20:59:16 Passenger -289 family- got-in the bus with destination to -1- at the bus stop 7
+../tests/logs/log_cart_C_0.txt:  20:59:16 Passenger -290 family- got-in the bus with destination to -1- at the bus stop 7
+../tests/logs/log_cart_C_0.txt:  20:59:16 Passenger -291 family- got-in the bus with destination to -1- at the bus stop 7
+../tests/logs/log_cart_C_0.txt:  20:59:16 Passenger -292 family- got-in the bus with destination to -1- at the bus stop 7
