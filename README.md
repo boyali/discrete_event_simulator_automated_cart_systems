@@ -16,3 +16,12 @@ For details of the simulation environment please check the technical report. For
   year={2018},
   publisher={電子情報通信学会}
 }
+
+We build training environment using Tensorflow. A sample training network is given in the network folder. One can run
+ TF_train.py in the test folder to train using a couple of policies given in the script. 
+ 
+For citations of the Supervisory Reinforcement Learning;
+ 
+ Multi-Agent Reinforcement Learning for Autonomous On Demand Vehicles
+ Ali Boyali, Naohisa Hashimoto, Vijay John and Tankut Acarman 
+ Intelligent Vehicle Symposium IV 2019 (To be published)
