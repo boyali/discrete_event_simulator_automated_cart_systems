@@ -1,4 +1,4 @@
-# discrete_event_simulator_automated_cart_systems
+# Discrete Event Simulator and Supervisory Control by Reinforcement Learning for Autonomous Carts
 This simulation environment is designed for simulating autonomous cart and design supervisory control with RL algorithms. The autonomous carts are managed by the control algorithm. Here we provide a simulation framework which can be used to analyze passenger waiting statistics. The RL study codes will be published soon separately. 
 
 We provided a sample notebook file for statistical analysis in the repository. For simulation, please just run the 
