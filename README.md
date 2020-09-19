@@ -6,22 +6,29 @@ standard_SIM_ord in tests folder. The related logs are generated and saved to be
 
 For details of the simulation environment please check the technical report. For citations;
 
-@article{hashimoto2018stochastic,
-  title={Stochastic Discrete Event Simulation Environment for Autonomous Cart Fleet for Artificial Intelligent Training and Reinforcement Learning Algorithms (マルチメディアストレージ ヒューマンインフォメーション メディア工学 映像表現 \& コンピュータグラフィックス)},
-  author={HASHIMOTO, Naohisa and BOYALI, Ali and KATO, Shin and OTSUKA, Takao and MIZUSHIMA, Kazuhisa and OMAE, Manabu},
-  journal={電子情報通信学会技術研究報告= IEICE technical report: 信学技報},
-  volume={117},
-  number={431},
-  pages={29--33},
-  year={2018},
-  publisher={電子情報通信学会}
-}
+    @article{hashimoto2018stochastic, <br>
+      title={Stochastic Discrete Event Simulation Environment for Autonomous Cart Fleet for Artificial Intelligent Training and Reinforcement Learning Algorithms (マルチメディアストレージ ヒューマンインフォメーション メディア工学 映像表現 \& コンピュータグラフィックス)},<br>
+      author={HASHIMOTO, Naohisa and BOYALI, Ali and KATO, Shin and OTSUKA, Takao and MIZUSHIMA, Kazuhisa and OMAE, Manabu},<br>
+      journal={電子情報通信学会技術研究報告= IEICE technical report: 信学技報},<br>
+      volume={117},<br>
+      number={431},<br>
+      pages={29--33},<br>
+      year={2018},<br>
+      publisher={電子情報通信学会}<br>
+    }
+
+
 
 We build training environment using Tensorflow. A sample training network is given in the network folder. One can run
  TF_train.py in the test folder to train using a couple of policies given in the script. 
  
 For citations of the Supervisory Reinforcement Learning;
  
- Multi-Agent Reinforcement Learning for Autonomous On Demand Vehicles
- Ali Boyali, Naohisa Hashimoto, Vijay John and Tankut Acarman 
- Intelligent Vehicle Symposium IV 2019 (To be published)
+         @inproceedings{boyali2019multi,<br>
+          title={Multi-Agent Reinforcement Learning for Autonomous On Demand Vehicles},<br>
+          author={Boyal{\i}, Ali and Hashimoto, Naohisa and John, Vijay and Acarman, Tankut},<br>
+          booktitle={2019 IEEE Intelligent Vehicles Symposium (IV)},<br>
+          pages={1461--1468},<br>
+          year={2019},<br>
+          organization={IEEE}<br>
+        }
