@@ -17,6 +17,7 @@ For details of the simulation environment please check the technical report. For
       publisher={電子情報通信学会}<br>
     }
 
+[Stochastic Discrete Event Simulation Environment for Autonomous Cart Fleet for Artificial Intelligent Training and Reinforcement Learning Algorithms ](http://www.academia.edu/download/58863306/discrete_event_simulator_report_paper20190411-19568-t6qbrx.pdf)
 
 
 We build training environment using Tensorflow. A sample training network is given in the network folder. One can run
@@ -32,3 +33,6 @@ For citations of the Supervisory Reinforcement Learning;
           year={2019},<br>
           organization={IEEE}<br>
         }
+        
+[Multi-Agent Reinforcement Learning for Autonomous On Demand Vehicles](https://www.researchgate.net/profile/Ali_Boyali/publication/332446506_Multi-Agent_Reinforcement_Learning_for_Autonomous_On_Demand_Vehicles/links/5ceaa035299bf14d95bc20e5/Multi-Agent-Reinforcement-Learning-for-Autonomous-On-Demand-Vehicles.pdf)        
+        
